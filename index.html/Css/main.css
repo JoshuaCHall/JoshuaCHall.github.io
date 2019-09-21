@@ -19,7 +19,10 @@ border-radius: 6px;
 float: right;
 box-shadow: 4px 4px 4px 4px black;
 }
+section {
 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 footer {
 
 background-color: blue;
