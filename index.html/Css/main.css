@@ -4,7 +4,7 @@
      
 }
   header {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
@@ -16,16 +16,16 @@
 
 
 .img {
-width: 150px;
-border-radius: 6px;
+width: 130px;
+border-radius: 3px;
 float: right;
 box-shadow: 4px 4px 4px 4px black;
-padding-right: 3rem;
-padding-top: -5rem;
+
 }
 section {
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;
+padding: 10px;
 }
 
 footer {
