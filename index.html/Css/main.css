@@ -2,18 +2,20 @@
      max-width: 760px;
      magin:0 auto;
      
-
-     
-  }
+}
   header{
   font-size: 18px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   padding: 1rem;
-  
-  
-  
   color: white;
   background-color: blue;
+}
 
-   }
+image {
+width: 140px;
+height: 240px;
+border-radius: 6px;
+float: right;
+box-shadow: 6px 6px 6px 6px black;
+}
