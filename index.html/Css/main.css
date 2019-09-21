@@ -16,11 +16,9 @@
 width: 150px;
 height: 240px;
 border-radius: 6px;
-float: right;
 float: top 10px;
+float: right;
+
 box-shadow: 4px 4px 4px 4px black;
 }
 
-background {
-background-color: goldenrod;
-}
