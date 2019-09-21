@@ -10,7 +10,7 @@
   font-family: 'Times New Roman', Times, serif;
   padding: 1rem;
   color: white;
-  background-color: blue;
+  background-color: steelblue;
   
 }
 
@@ -28,7 +28,7 @@ font-size: 18px;
 }
 
 footer {
-background-color: blue;
+background-color: steelblue;
 font-family: 'Times New Roman', Times, serif;
 font-size: 14px;
 color: white;
