@@ -17,5 +17,6 @@ width: 150px;
 height: 240px;
 border-radius: 6px;
 float: right;
+float: inline-start
 box-shadow: 4px 4px 4px 4px black;
 }
