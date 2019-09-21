@@ -20,3 +20,7 @@ float: right;
 float: top 10px;
 box-shadow: 4px 4px 4px 4px black;
 }
+
+background {
+background-color: goldenrod;
+}
