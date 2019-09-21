@@ -21,12 +21,11 @@ float: right;
 box-shadow: 4px 4px 4px 4px black;
 }
 section {
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 footer {
-
 background-color: blue;
-
+font-size: 14px;
  }
 
