@@ -8,4 +8,18 @@
         font-size: 20px;
         margin: 0.15rem;
     }
+    h1 {
+        font-size: 20px;
+        line-height: 1px;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        padding: 1rem;
+        color: white;
+        border-radius: 12px 12px 12px 12px;
+      }
+      h2 {
+        font-family: 'Libre Baskerville', serif;
+      font-size: 10px;
+      padding: 10px;
+      }
 }
