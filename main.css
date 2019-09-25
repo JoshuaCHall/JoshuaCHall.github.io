@@ -4,13 +4,20 @@
      
 }
   header {
+  line-height: 1px;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: steelblue;
+  border-radius: 12px 12px 12px 12px;
+}
+h1 {
   font-size: 20px;
   line-height: 1px;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
   padding: 1rem;
   color: white;
-  background-color: steelblue;
   border-radius: 12px 12px 12px 12px;
 }
 
@@ -22,7 +29,7 @@ float: right;
 box-shadow: 4px 4px 4px 4px black;
 
 }
-section {
+h2 {
   font-family: 'Libre Baskerville', serif;
 font-size: 18px;
 padding: 10px;
@@ -37,8 +44,6 @@ text-align: center;
 border-radius: 12px 12px 12px 12px;
 padding: 1rem;
  }
-
- font-family: 'Merriweather', serif;
 
 
 
