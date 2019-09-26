@@ -1,25 +1,21 @@
-@media (min-width: 32.5em){
+@media only screen and (min-width: 32.5em){
     .img {
         float: right;
     }
-}
-@media only screen and (min-width: 32.5em){
     header {
-        font-size: 20px;
-        margin: 0.15rem;
-    }
-    h1 {
-        font-size: 20px;
+        font-size: 24px;
+        font-family: 'Libre Baskerville', serif;
         line-height: 1px;
         text-align: center;
-        font-family: 'Libre Baskerville', serif;
         padding: 1rem;
         color: white;
+        background-color: steelblue;
         border-radius: 12px 12px 12px 12px;
-      }
+    }
+    
       h2 {
         font-family: 'Libre Baskerville', serif;
-      font-size: 10px;
+      font-size: 18px;
       padding: 10px;
       }
 }

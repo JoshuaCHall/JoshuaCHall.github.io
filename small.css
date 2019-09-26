@@ -3,45 +3,33 @@
      margin:0 auto;
      
 }
-  header {
+header {
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
   line-height: 1px;
   text-align: center;
   padding: 1rem;
   color: white;
   background-color: steelblue;
-  border-radius: 12px 12px 12px 12px;
+  
 }
-h1 {
-  font-size: 14px;
-  line-height: 1px;
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-  padding: 1rem;
-  color: white;
-  border-radius: 12px 12px 12px 12px;
-}
-
 
 .img {
 width: 130px;
 border-radius: 3px;
-
-box-shadow: 4px 4px 4px 4px black;
-
 }
 h2 {
   font-family: 'Libre Baskerville', serif;
-font-size: 18px;
+font-size: 14px;
 padding: 10px;
 }
-
 footer {
 background-color: steelblue;
 font-family: 'Times New Roman', Times, serif;
 font-size: 14px;
 color: white;
 text-align: center;
-border-radius: 12px 12px 12px 12px;
+
 padding: 1rem;
  }
 
