@@ -13,6 +13,21 @@ header {
  background-color: steelblue;
  
 }
+main {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+    border-radius: 15px 15px 15px 15px;
+    max-width: 767px;
+    margin: .5rem;
+}
+img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h2 {
     font-family: 'Libre Baskerville', serif;
