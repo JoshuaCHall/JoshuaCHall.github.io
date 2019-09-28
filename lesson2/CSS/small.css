@@ -1,0 +1,15 @@
+body {
+    max-width: 760px;
+    margin:0 auto;
+    
+}
+header {
+ font-size: 18px;
+ font-family: 'Libre Baskerville', serif;
+ line-height: 1px;
+ text-align: center;
+ padding: 1rem;
+ color: white;
+ background-color:rgb(184, 182, 182);
+ 
+}
