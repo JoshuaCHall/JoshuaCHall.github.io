@@ -3,16 +3,42 @@ body {
     margin:0 auto;
     
 }
-header {
- font-size: 18px;
+header, #h2header {
+ font-size: 20px;
  font-family: 'Libre Baskerville', serif;
- line-height: 1px;
+ line-height: 2.5px;
  text-align: center;
  padding: 1rem;
  color: white;
  background-color: steelblue;
  
 }
+
+#title1 {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2.5px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    background-color: slategrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+#title2 {
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5px;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    
+}
+
 main {
     display: grid;
     column-gap: 10px;
@@ -21,19 +47,40 @@ main {
     max-width: 767px;
     margin: .5rem;
 }
+section {
+    border: 2px solid #bbb;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(211, 210, 210);
+}
 img {
-    width: 90%;
+    width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
 }
 
-h2 {
-    font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
-  padding: 10px;
-  }
+#weblink {
+    color: black;
+    font-size: 18px;
+    line-height: 1.5px;
+    text-align: center;
+    justify-content: center;
+    padding: .5rem;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 10px;
+}
+p {
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
   footer {
   background-color: steelblue;
   font-family: 'Times New Roman', Times, serif;
