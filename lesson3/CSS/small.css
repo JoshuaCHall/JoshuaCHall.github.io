@@ -22,10 +22,14 @@ nav ul {
 header {
 
     text-align: center;
-
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1px;
+    padding: 1rem;
+    color: white;
 }
 
 h1{
 
-    color: white;
+    color: 
 }
