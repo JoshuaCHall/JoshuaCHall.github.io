@@ -1,6 +1,6 @@
 body{
 
-    background-color:#466365;   
+    background-color:#add79c;   
 
 }
 nav ul {
@@ -13,4 +13,19 @@ nav ul {
      align-items: center;
      padding: 15px;
      justify-content: space-between;
+}
+#topcolor {
+    background-color: #466365;
+    padding: 0px;
+}
+
+header {
+
+    text-align: center;
+
+}
+
+h1{
+
+    color: white;
 }
