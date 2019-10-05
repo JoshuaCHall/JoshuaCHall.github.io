@@ -30,3 +30,11 @@ header {
     color: white;
 }
 
+main {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+    border-radius: 15px 15px 15px 15px;
+    max-width: 767px;
+    margin: .5rem;
+}
