@@ -14,8 +14,8 @@ header {
   
 }
 
-.img {
-width: 130px;
+.img id=weather {
+width: 250px;
 border-radius: 3px;
 }
 h2 {
