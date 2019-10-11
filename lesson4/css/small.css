@@ -27,3 +27,23 @@ body{
     max-width: 760px;
     height: auto;
 }
+
+
+#navli {
+    color: #1f2421;
+    text-decoration: none;
+     list-style: none;
+}
+#navli:hover {
+    color: #606d5d;
+    
+}
+
+main {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+    border-radius: 15px 15px 15px 15px;
+    max-width: 767px;
+    margin: .5rem; 
+}
