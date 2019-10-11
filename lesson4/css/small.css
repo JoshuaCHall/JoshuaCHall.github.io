@@ -5,3 +5,25 @@ display: flex;
 align-items: center;
 justify-content: center; 
 }
+
+nav ul {
+    background-color: #466365;
+    width: 100%;
+    font-size: 20px;
+     text-decoration: none;
+     list-style: none;
+     line-height: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     display: block;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 15px;
+     justify-content: space-around;
+     border: 1px solid transparent;
+     overflow: hidden;
+}
+
+body{
+    max-width: 760px;
+    height: auto;
+}
