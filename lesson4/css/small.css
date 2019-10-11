@@ -5,7 +5,9 @@ header {
     align-items: center;
     justify-content: center;
     color: #466365;
+  
 }
+    
 
 nav ul {
     background-color: #466365;
@@ -61,7 +63,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 10px;
 }
 
 footer {
