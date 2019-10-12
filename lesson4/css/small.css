@@ -8,6 +8,10 @@ header {
   
 }
 
+#colortable {
+    max-width: 450px;
+}
+
 nav {
     margin: 0 auto;
     max-width: 760px;
@@ -69,6 +73,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+
+title {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 footer {
