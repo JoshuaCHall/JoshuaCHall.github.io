@@ -14,7 +14,7 @@ header {
 
 nav {
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 450px;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 }
 
 body {
-    max-width: 760px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -63,7 +63,7 @@ main {
     column-gap: 10px;
     grid-template-columns: 1fr;
     border-radius: 15px 15px 15px 15px;
-    max-width: 767px;
+    max-width: 450px;
     margin: .5rem;
 
 }
