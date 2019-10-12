@@ -7,7 +7,12 @@ header {
     color: #466365;
   
 }
-    
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+
+}
 
 nav ul {
     background-color: #466365;
