@@ -46,7 +46,7 @@ nav ul li {
 
 }
 
-#navli {
+.navigation {
     color: #1f2421;
     text-decoration: none;
     list-style: none;
