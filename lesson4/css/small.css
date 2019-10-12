@@ -5,7 +5,7 @@ header {
     align-items: center;
     justify-content: center;
     color: #1f2421;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #colortable {
@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    margin: 0 auto;
+    
     text-align: center;
     background-color: #466365;
 }
@@ -22,16 +22,11 @@ nav ul {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-body {
-    max-width: 760px;
-    height: auto;
-}
-
 nav ul li a {
     text-decoration: none;
     list-style: none;
     color: #1f2421;
+    text-align: center;
 }
 nav ul li a:hover {
     color: #606d5d;
@@ -41,9 +36,7 @@ nav ul li.active a {
     background-color: #1f2421;
     color: #add79c;
 }
-
 .navigation {
-    
     text-decoration: none;
     list-style: none;
     display: block;
@@ -72,12 +65,23 @@ main {
     display: block;
     padding: 10px;
 }
+#tagline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #1f2421;
+}
 
 h1 {
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1f2421;
+    font-family:'Libre Baskerville', serif;
     text-align: center;
     margin-right: 20px;
+    font-size: 25px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 h3 {
