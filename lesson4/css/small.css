@@ -1,5 +1,40 @@
+nav {
+    margin: 0 auto;
+}
+nav ul {
+    overflow: hidden;
+}
+nav ul li a:hover {
+    color: #606d5d;
+    background-color: #1f2421;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: #1f2421;
+    color: #add79c;
+}
+.navigation {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #466365;
+    padding: 0;
+    overflow: hidden;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.responsive li {
+    display: block;
+}
 body {
     background-color: #add79c; 
+    margin: 0 auto;
 }
 header {
     background-color: #add79c;
@@ -10,55 +45,26 @@ header {
     color: #1f2421;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-#colortable {
-    max-width: 760px;
-}
-
-nav {
-    
+.headings {
     text-align: center;
-    background-color: #466365;
+    line-height: 2rem;
 }
 
-nav ul {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 nav ul li a {
     text-decoration: none;
     list-style: none;
     color: #1f2421;
-    text-align: center;
-}
-nav ul li a:hover {
-    color: #606d5d;
-    background-color: #1f2421;
-}
-nav ul li.active a {
-    background-color: #1f2421;
-    color: #add79c;
-}
-.navigation {
-    text-decoration: none;
-    list-style: none;
-    display: block;
-}
-.navigation li:first-child {
-    display: block;
-}
-.responsive li {
-    display: block;
 }
 
-main {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: 1fr;
-    border-radius: 15px 15px 15px 15px;
-    max-width: 450px;
-    margin: .5rem;
+.navigation a {
+    padding: .5rem;
+    display: block;
+    
+}
 
+
+.current {
+    background-color: #add79c;
 }
 
 #logo {
@@ -86,13 +92,26 @@ h2{
     font-size: 20px;
     text-align: center;
 }
-p {
+
+footer{
+    background-color: #466365;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #1f2421;
+    
+}
+.link {
+    text-decoration: none;
+    color: #1f2421;
+}
+.placeholder {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
-}
-
-footer {
-
-    background-color: #add79c;
-    text-align: center;
+    background-color: #606d5d;
+    color: #1f2421;
+    border-color: #1f2421;
+    border-style: solid;
+    border-width: .5px;
+    padding: 15px;
 }

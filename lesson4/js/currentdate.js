@@ -1,2 +1,2 @@
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', time: 'numeric'};
-document.getElementById('Currentdate').textContent = new Date().toLocaleDateString('en-GB', options);
+document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-GB', options);
