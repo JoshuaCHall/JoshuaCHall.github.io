@@ -9,12 +9,12 @@ header {
 }
 
 #colortable {
-    max-width: 450px;
+    max-width: 760px;
 }
 
 nav {
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 760px;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 }
 
 body {
-    max-width: 450px;
+    max-width: 760px;
     height: auto;
 }
 
