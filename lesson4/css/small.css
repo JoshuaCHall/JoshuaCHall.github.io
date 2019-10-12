@@ -4,7 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #466365;
+    color: #1f2421;
 
 }
 
@@ -14,25 +14,13 @@ header {
 
 nav {
     margin: 0 auto;
-    max-width: 760px;
     text-align: center;
+    background-color: #466365;
 }
 
 nav ul {
-    background-color: #466365;
-    width: 100%;
     font-size: 20px;
-    text-decoration: none;
-    list-style: none;
-    line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
-
-
-    padding: 15px;
-    justify-content: space-around;
-    border: 1px solid transparent;
-    overflow: hidden;
 }
 
 body {
@@ -40,22 +28,31 @@ body {
     height: auto;
 }
 
-nav ul li {
+nav ul li a {
     text-decoration: none;
     list-style: none;
-
+    color: #1f2421;
+}
+nav ul li a:hover {
+    color: #606d5d;
+    background-color: #1f2421;
+}
+nav ul li.active a {
+    background-color: #1f2421;
+    color: #add79c;
 }
 
 .navigation {
-    color: #1f2421;
+    
     text-decoration: none;
     list-style: none;
-
+    display: block;
 }
-
-#navli:hover {
-    color: #606d5d;
-
+.navigation li:first-child {
+    display: block;
+}
+.responsive li {
+    display: block;
 }
 
 main {
