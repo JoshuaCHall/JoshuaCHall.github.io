@@ -1,0 +1,18 @@
+@media only screen and (min-width: 37.5em) {
+    main, footer {
+        max-width: 760px;
+        margin: auto;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navigation li:first-child {
+     display: none;
+     white-space: nowrap;
+    }
+    .navigation li {
+        display: block;
+    }
+}
