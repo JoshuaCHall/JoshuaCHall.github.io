@@ -144,7 +144,8 @@ table {
     max-width: 50%;
 }
 .Article{
-    max-width: 300px;  
+    max-width: 300px;
+    float: right;  
 }
 .placeholder {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
