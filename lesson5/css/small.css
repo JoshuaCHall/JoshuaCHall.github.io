@@ -123,6 +123,9 @@ table {
     text-align: center;
     background-color: #add79c;
     padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #1f2421;
 }
 .weather5 {
     background-color: #add79c;   
@@ -137,7 +140,9 @@ table {
     text-decoration: none;
     color: #1f2421;
 }
-
+.map {
+    max-width: 50%;
+}
 .placeholder {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
