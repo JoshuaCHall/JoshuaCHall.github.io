@@ -113,12 +113,6 @@ footer {
     color: #1f2421;
 
 }
-
-.Hero-img {
-    width: 730px;
-
-}
-
 table {
     margin: 0 auto;
     text-align: center;
@@ -127,10 +121,12 @@ table {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
     color: #1f2421;
-}
-.hideonsmall {
     display: none;
 }
+.hidemap {
+    display: none;
+}
+
 .contactinfo {
     text-align: center;
 }
@@ -146,21 +142,19 @@ table {
     color: #1f2421;
 }
 
-.map {
-    max-width: 50%;
-}
-
-.article {
+p {
     max-width: 300px;
-    float: right;
-    padding: 20px;
+    padding-left: 10px;
     background-color: #606d5d;
+}
+.fish {
+    width: 100%;
 }
 
 #heroimg {
     display: block;
     padding: 10px;
-    width: 100%;
+    width: 95%;
 }
 
 .herosection {
@@ -178,4 +172,15 @@ table {
     top: 25px;
     padding: 10px;
 }
-
+.pancakebanner {
+    display: none;
+}
+.banner {
+    background-color: #1f2421;
+    color: #add79c;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+}

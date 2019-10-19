@@ -1,39 +1,27 @@
 @media only screen and (min-width: 37.5em) {
-    main, footer {
+
+    main,
+    footer {
         max-width: 760px;
         margin: auto;
     }
+
     .navigation {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+
     .navigation li:first-child {
-     display: none;
-     white-space: nowrap;
+        display: none;
+        white-space: nowrap;
     }
+
     .navigation li {
         display: block;
     }
+    p {
+        float: right;
+    }
 }
-.hideonsmall {
-    display: unset;
-}
-.map {
-    max-width: 50%;
-}
-.Article{
-    max-width: 300px;
-    float: right;
-    padding: 20px;  
-}
-.placeholder {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    background-color: #606d5d;
-    color: #1f2421;
-    border-color: #1f2421;
-    border-style: solid;
-    border-width: .5px;
-    padding: 15px;
-}
+
