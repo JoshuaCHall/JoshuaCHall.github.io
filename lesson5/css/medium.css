@@ -16,7 +16,9 @@
         display: block;
     }
 }
-
+.hideonsmall {
+    display: unset;
+}
 .map {
     max-width: 50%;
 }
