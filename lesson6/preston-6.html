@@ -42,9 +42,13 @@
     <main>
         <h2>Preston Idaho</h2>
         <section class="herosection">
-            <div><img id="heroimg" src="images/Optimized-fudo-jahic-gx93r8jATgo-unsplash.jpg"
-                    alt="image of lake and mountains">
-            </div>
+            <div><picture>
+            <source srcset="images/Franklin700.jpg" media="(min-width:481px) and (max-width: 670px)">
+                <source srcset=" images/Franklin1000.jpg" media="(min-width:671px)">
+                <img id="preston-6-photo" src="images/Franklin400.jpg"
+               alt="blue sky and mountains">
+
+                </picture></div>
             <div class="weathersummary">
                 <p>Weather Summary</p>
                 <p>Currently: Sunny</p>
@@ -154,9 +158,13 @@
         <script src="js/toggle.js"></script>
         <script src="js/currentdate.js"></script>
         <script id="pancake" src="js/pancake.js"></script>
-
-    </footer>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+        WebFont.load({
+        google: {
+          families: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif]}
+      });
+        </script>
 </body>
 
 </html>

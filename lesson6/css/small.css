@@ -123,6 +123,12 @@ footer {
     text-decoration: none;
     color: #1f2421;
 }
+#preston-6-photo{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;   
+}
 #heroimg {
     display: block;
     padding: 10px;
