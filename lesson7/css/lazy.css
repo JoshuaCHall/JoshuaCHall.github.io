@@ -3,9 +3,17 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-size: 32px;
 color: green;
 text-align: center;
+
 }
 
 footer {
-color: green;
- text-align: center;   
+color: white;
+ text-align: center;
+ background-color: green;
+ border-radius: 20px; 
+ padding: 14px;  
+}
+
+img {
+
 }
