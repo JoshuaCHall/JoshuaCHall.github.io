@@ -28,6 +28,7 @@ if('IntersectionObserver' in window) {
   } else {
     imagesToLoad.forEach((img) => {
       loadImages(img);
+      
 
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadImages = (image) => {
