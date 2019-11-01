@@ -15,5 +15,18 @@ color: white;
 }
 
 img {
+    min-width: 50px;
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: 300px;
+    padding: 5px;
+    margin: 0 auto;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
 
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
