@@ -36,5 +36,8 @@
         display: flex;
         flex-direction: row;
     }
+    .gallery {
+    grid-template-columns: 1fr 1fr;
+}
 }
 
