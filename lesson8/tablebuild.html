@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Table Build</title>
-    <meta name="description" content="Joshua Hall Preston Town Page">
+    <meta name="description" content="Joshua Hall Table Build">
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
@@ -17,16 +17,16 @@
 <body>
     <main>
  <table>
-     <caption >ACME Wildwest</caption>
-     <tbody>
+     <caption>ACME Wildwest</caption>
+     
 <thead>
     <tr>
-    <td>Period</td>
-    <td>Sales</td>
-    <td>Sales Goal</td>
+    <th>Period</th>
+    <th>Sales</th>
+    <th>Sales Goal</th>
 </tr>
 </thead>
-
+<tbody>
 <tr>
     <td>August</td> 
     <td>$3,590</td>
@@ -50,8 +50,8 @@
 </tr>
 
 <tr>
-    <td>Black Friday</td>
-<td colspan="3">$3,200</td>
+    <td><i>Black Friday</i></td>
+<td colspan="2">$3,200</td>
 </tr>
 
 <tr>
@@ -60,7 +60,11 @@
     <td>$7,500</td>
 </tr>
 </tbody>
-<tfoot></tfoot>
+<tfoot>
+    <tr>
+        <td colspan="3">Compiled 12.20.2020 by bRauls</td>
+    </tr>
+</tfoot>
 </table>
     </main>
 
@@ -74,13 +78,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-        WebFont.load({
-            google: {
-                families: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
-                    Verdana, sans - serif
-                ]
-            }
-        });
+        WebFont.load({google: {families: ['Ubuntu']}});
     </script>
 
 </body>
