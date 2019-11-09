@@ -246,7 +246,9 @@ figure img {
 }
 
 /*CSS for storm form*/
-
+.stormmain {
+    background-color: #e9fde2;
+}
 .formdiv {
     
     display: block;
@@ -261,7 +263,7 @@ form fieldset {
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: white;
+    
 }
 .formh2,
 .formh3 {
@@ -273,7 +275,7 @@ form fieldset {
 legend, label {
     color: #1f2421;
     font-size: 18px;
-    padding: 0 .5rem;
+    padding: 10px;
 }
 form label.top, form div {
     display: block;
@@ -296,7 +298,7 @@ form label.sbs {
 form input.submitBtn {
     padding: .75rem 1.25rem;
     border-radius: 1rem;
-    color: #1f2421;
+    color: #e9fde2;
     background-color: #466365;
     border: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -306,10 +308,10 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: #466365;
+    border-left: #466365 solid 6px;
 }
 form label.top input:required:valid {
-    border-left: green;
+    border-left: green solid 6px;
 }
 textarea {
     width: 90%;
