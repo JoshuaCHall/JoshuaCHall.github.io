@@ -34,67 +34,62 @@
             <li> <a href="#">Preston</a></li>
             <li> <a href="#">Soda Springs</a></li>
             <li> <a href="#">Fish Haven</a></li>
-            <li> <a href="#">Storm Center</a></li>
-            <li> <a class="current" href="storm center-8.html">Gallery</a></li>
+            <li> <a class="current" href="stormcenter.html">Storm Center</a></li>
+            <li> <a href="">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Storm Center</h2>
-        <form method="get" action="thanks.html"></form>
-        <div class="selection"></div>
+        <h2 class="formh2">Storm Center</h2>
+        <div class="formdiv">
+        <h3 class="formh3">Report Storm</h3>
+        <form method="get" action="thanks.html">
         <fieldset>
 
             <legend>
-                user information
+                Contact information
             </legend>
-           <label class="top"> First Name*<input type="text" name="fname" required></label>
-           <label class="top"> Last Name*<input type="text" name="lname" required></label>
-           <label class="top"> phone<input type="tel" name="phone"placeholder="1235551243"></label>
-           <label class="top"> email<input type="email" name="email"placeholder="something@gmail.com"></label>
-           <label class="top"> zipcode<input type="number" name="zip" required="zipcode"></label>
+            <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}" placeholder="First Last" required></label>
+            <label class="top"> Email<input type="email" name="email" placeholder="example@gmail.com"></label>
+            <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"></label>
+            <label class="top"> Zip Code<input type="number" name="zip" required></label>
         </fieldset>
 
-<fieldset>
-    <legend>what can you say</legend>
-    <div>Audience</div>
-<input class="sbs" type="radio" name="Audience" value="Yes">Yes</input>
-<input class="sbs" type="radio" name="Audience" value="Meabey">Meabey</input>
-<input class="sbs" type="radio" name="Audience" value="No">No</input>
-<fieldset>
+        <fieldset>
+            <legend>Storm Details</legend>
+            <label class="top">Storm Date<input type="date" name="date"></label>
+            <label class="top">Storm Type<input list="stormtype">
+            <datalist id="stormtype">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+            </label>
+            <label class="top" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label>
+            <label class="top">Storm Region<select name="region">
+                    <option disabled value="Select Region">Select Region</option>    
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+            </select></label>
+            </fieldset>
+            <fieldset>
+                <legend class="top">Additional Information</legend>
+                <div>Are you in direct danger?</div>
+                <label class="sbs"><input  type="radio" name="danger" value="Yes">Yes</label>
+                <label class="sbs"><input  type="radio" name="danger" value="Maybe">Maybe</label>
+                <label class="sbs"><input  type="radio" name="danger" value="No">No</label>
+                <legend>Additional Comments</legend>
+                <label><textarea name="Additional Comments"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Send Report" class="submitBtn">
 
-  
-<div>Software Needed</div>
-<input  type="checkbox" name="Audience" value="No">No</input>
-<input  type="checkbox" name="Audience" value="No">No</input>        
-<input  type="checkbox" name="Audience" value="No">No</input>
-<input  type="checkbox" name="Audience" value="No">No</input>
-
-<fieldset>
-    <legend> a storm is coming</legend>
-    
-<label class="top"></label>
-<input type="date" name="stormdate"  > </input>
-</fieldset>
-
-<fieldset>
-<legend>dropdown</legend>
-<label>copltion date</label>
-    <option value=""></option>
-<select name= "object">
-    <option value="fish heaven">Fish Heaven</option>
-    <option value="Prestion">Perstion</option>
-    <option value="mt hall">MT Hall</option>
-    <option value="soda springs">Soda Springs</option>
-    <label>copltion date</label>
-    
-    <input type="submit" value="find a storm">
-
-</fieldset>
-
-</section>
-
-
-
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -110,7 +105,8 @@
     <script>
         WebFont.load({
             google: {
-                families: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
+                families: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+                    'Geneva',
                     'Verdana', 'sans - serif'
                 ]
             }
