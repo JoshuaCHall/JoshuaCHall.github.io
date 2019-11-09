@@ -265,12 +265,21 @@ form fieldset {
     border-radius: 10px;
     
 }
-.formh2,
+.formh2 {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    padding: 10px;
+    font-size: 22px;
+    color: #466365;
+}
 .formh3 {
     text-align: center;
     margin: 0 auto;
     float: none;
     padding: 10px;
+    font-size: 18;
+    color:#606d5d;
 }
 legend, label {
     color: #1f2421;
