@@ -202,3 +202,6 @@ p {
     font-size: 20px;
     display: block;
 }
+.article {
+    padding: 10px;
+}
