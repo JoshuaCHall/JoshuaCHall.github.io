@@ -227,3 +227,24 @@ figure img {
     width: 100%;
     height: auto;
 }
+/*CSS for storm form*/
+
+form fieldset{
+border:  #1f2421;
+
+display: block;
+margin: auto 0 ;
+}
+
+h2{
+text-align: center;
+
+
+}
+form label.top input select{
+display: block;
+font-size: 1rem;
+border-radius: 5px;
+max-width: 20rem;
+width: 100%;
+}
