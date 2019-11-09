@@ -248,3 +248,8 @@ border-radius: 5px;
 max-width: 20rem;
 width: 100%;
 }
+
+form label.sbs{
+display: block;
+
+}
