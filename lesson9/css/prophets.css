@@ -1,0 +1,26 @@
+.cards{
+display: grid;
+grid-template-columns: 150% ;
+text-align: center;
+justify-items: center;
+grid-column-gap: 20px;
+background-color: #606d5d;;
+}
+
+image{
+width: 200px;
+height: auto;
+}
+
+@media only screen and ( min-width: 37.5em )    {
+    
+}
+
+
+
+
+
+ 
+
+
+
