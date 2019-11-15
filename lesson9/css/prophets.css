@@ -3,28 +3,45 @@ display: grid;
 grid-template-columns: 1fr ;
 text-align: center;
 justify-items: center;
-grid-column-gap: 20px;
-background-color: #606d5d;
+column-gap: 10px;
+row-gap: 10px;
 
 }
-
-image{
-width: 200px;
+section {
+background-color: #606d5d;
+width: 100%;
 height: auto;
+border: white solid 1px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, header, body, footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    background-color: blanchedalmond;
+    padding: 15px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+}
+
+img {
+width: 150px;
+height: auto;
+box-shadow: black 0 0 10px;
 }
 
 @media only screen and ( min-width: 37.5em )    {
-
+.cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media only screen and ( min-width: 60em )    {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
-text{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
-
-.h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-}
 
 
 
