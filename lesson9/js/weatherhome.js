@@ -13,7 +13,7 @@ fetch(requestURL)
             let card = document.createElement('section');
             let span = document.createElement('span');
             let h3 = document.createElement('h3');
-            let motto = document.createElement('i');
+            let motto = document.createElement('p');
             let yearFounded = document.createElement('p');
             let currentPopulation = document.createElement('p');
             let averageRainfall = document.createElement('p');

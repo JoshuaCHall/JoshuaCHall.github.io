@@ -326,3 +326,12 @@ textarea {
     width: 90%;
     height: 6rem;
 }
+/*Home Page*/
+
+.towncards{
+border: #466365;
+border-radius: 5px;
+flex-direction: column-reverse;
+
+}
+
