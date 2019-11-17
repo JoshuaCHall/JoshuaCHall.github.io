@@ -329,9 +329,40 @@ textarea {
 /*Home Page*/
 
 .towncards{
-border: #466365;
-border-radius: 5px;
-flex-direction: column-reverse;
+display: flex;
+flex-direction: column;
+
+border-radius: 6px;
+margin: 0px auto;
+padding: 10px;
+}
+
+.towncard{
+    border: #466365 solid 4px;
+    padding: 10px;
+ margin: 10px;
+ background-color: hsl(210, 14%, 53%, .5);
+border-radius: 10px;
 
 }
+
+.towncard section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.towncards section span :nth-child(2){
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.towncards section:first-child {
+    order: 3;
+}
+
+
 
