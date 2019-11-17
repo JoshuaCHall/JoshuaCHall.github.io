@@ -343,14 +343,17 @@ padding: 10px;
  margin: 10px;
  background-color: hsl(210, 14%, 53%, .5);
 border-radius: 10px;
-
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: rgb(87, 100, 112) 0px 2px 7px 4px;
 }
+
 
 .towncard section{
     justify-content: center;
     text-align: center;
     align-items: center;
-    box-shadow: lightslategray 0px 2px 7px 4px;
+    
 }
 
 .towncards section span :nth-child(2){
@@ -364,7 +367,13 @@ border-radius: 10px;
     order: 3;
 }
 
-cards section span{
+.towncards section span{
     width: 100%;
     height: auto;
+}
+
+.towncards img{
+width: 96%;
+padding: 10px;
+ 
 }
