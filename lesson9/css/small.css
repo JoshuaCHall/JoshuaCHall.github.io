@@ -388,3 +388,16 @@ padding: 10px;
 .homediv p {
     padding: 10px;
 }
+img.wireimg {
+    width: 400px;
+    margin: 0 auto;
+    height: auto;
+}
+p.wiretext {
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1f2421;
+    padding: 15px;
+    font-size: 20px;
+}
