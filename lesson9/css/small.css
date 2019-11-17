@@ -377,3 +377,14 @@ width: 96%;
 padding: 10px;
  
 }
+.towncard p {
+    font-size: 14px;
+}
+.homeimg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.homediv p {
+    padding: 10px;
+}

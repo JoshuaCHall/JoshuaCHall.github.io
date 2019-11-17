@@ -39,9 +39,35 @@
     .gallery {
     grid-template-columns: 1fr 1fr;
 }
+/* Home page */
+.towncards {
+    display: flex;
+}
+.towncards section {
+    display: flex;
+}
+.towncards section:nth-child(1){
+    order:3;
+    display: flex;
+    flex-grow: 1;
+}
+.towncards section:nth-child(3){
+    flex-direction: row-reverse;
+    text-align: center;
+}
+.towncards img {
+    width: 50%;
+}
+.towncards section span {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
 }
 
-             /* Home page */
+             
 
-           
+   
+
+         
 

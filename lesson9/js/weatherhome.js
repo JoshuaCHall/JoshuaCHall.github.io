@@ -12,7 +12,7 @@ fetch(requestURL)
             //create variable elements
             let card = document.createElement('section');
             let span = document.createElement('span');
-            let h3 = document.createElement('h3');
+            let h4 = document.createElement('h4');
             let motto = document.createElement('p');
             let yearFounded = document.createElement('p');
             let currentPopulation = document.createElement('p');
@@ -21,7 +21,7 @@ fetch(requestURL)
             //modify the contents
             card.className = 'towncard';
             motto.className = 'motto';
-            h3.textContent = towns[i].name;
+            h4.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
             yearFounded.textContent =  'Year Founded: ' + towns[i].yearFounded;
             currentPopulation.textContent =  'Population: ' + towns[i].currentPopulation;
@@ -30,7 +30,7 @@ fetch(requestURL)
             image.setAttribute('alt', towns[i].name);
             //Merge them together
             
-            span.appendChild(h3);
+            span.appendChild(h4);
             span.appendChild(motto);
             span.appendChild(yearFounded);
             span.appendChild(currentPopulation);
