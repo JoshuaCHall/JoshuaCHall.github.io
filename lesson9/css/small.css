@@ -350,7 +350,7 @@ border-radius: 10px;
     justify-content: center;
     text-align: center;
     align-items: center;
-
+    box-shadow: lightslategray 0px 2px 7px 4px;
 }
 
 .towncards section span :nth-child(2){
