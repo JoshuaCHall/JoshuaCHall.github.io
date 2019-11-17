@@ -10,24 +10,3 @@
 
 /* Home page  */
 
-.towncard{
- 
-flex-direction: row;
-
-}
-
-.towncards{
-    display: flex;
-    flex-direction: column;
-    
-    border-radius: 6px;
-    margin: 0px auto;
-    padding: 10px;
-
-}
-
-cards section span{
-width: 100%;
-height: auto;
-
-}
