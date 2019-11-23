@@ -1,0 +1,61 @@
+table {
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  width: 300px;
+  box-shadow: 10px 10px 10px #628ca6;
+  margin-bottom: 100px;
+  margin-top: 25px;
+ }
+ table th {
+     background-color: #628ca6;
+     color: white;
+     font-family: 'Ubuntu', sans-serif;
+     text-align: center;
+     margin: 0 auto;
+     padding: 10px;
+ }
+table caption {
+    background-color: #7fb9c2;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+table tr {
+    background-color: #e7ffed;
+}
+table tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+.money{
+    background-color:  #628ca6 ;
+    color: white;
+}
+
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #628ca6;
+    color: white;
+}
+table tfoot td {
+    background-color: #7fb9c2;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+table td, th {
+    padding: 10px;
+    border: 1px solid #bdbdbd;
+}
+
+
+
+
+
