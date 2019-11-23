@@ -6,7 +6,7 @@ fetch(apiURL)
     .then((jsObject) => {
         console.log(jsObject);
         document.getElementById('current-temp')
-            .textContent = jsObject.main.temp;
+            .textContent = jsObject.weather[0].description;
         document.getElementById('temp')
             .textContent = jsObject.main.temp_max;
             document.getElementById('humidity')
