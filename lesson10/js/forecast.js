@@ -1,5 +1,5 @@
 
-const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473,5607916,5585010&units=imperial&APPID=e982e9cdfe3e4734fa904be5f821277e";
+const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=e982e9cdfe3e4734fa904be5f821277e";
 
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"];
 
