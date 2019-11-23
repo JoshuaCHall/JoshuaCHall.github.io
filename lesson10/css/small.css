@@ -401,3 +401,21 @@ p.wiretext {
     padding: 15px;
     font-size: 20px;
 }
+.eventcard{
+    border: #466365 solid 4px;
+    padding: 10px;
+ margin: 10px;
+ background-color: hsl(210, 14%, 53%, .5);
+border-radius: 10px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: rgb(87, 100, 112) 0px 2px 7px 4px;
+}
+
+
+.eventcard section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}

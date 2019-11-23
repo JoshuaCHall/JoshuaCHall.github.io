@@ -19,7 +19,7 @@ fetch(requestURL)
             
             let image = document.createElement('img');
             //modify the contents
-            card.className = 'towncard';
+            card.className = 'eventcard';
             h4.textContent = '2020 Events';
             event1.textContent = towns[i].events[0];
             event2.textContent = towns[i].events[1];
