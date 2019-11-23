@@ -49,62 +49,43 @@
                 </picture></div>
             <div class="weathersummary">
                 <p>Weather Summary</p>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temp">48</span>&deg;</p>
+                <p>Currently: <span id="current-temp" alt="description"></span></p>
+                <p>High: <span id="temp"></span>&deg;</p>
                 <p>Wind Chill: <span id="chill"></span>&deg;</p>
-                <p>Humidity: 10%</p>
-                <p>Wind Speed: <span id=speed>5</span> mph</p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id=speed></span> mph</p>
             </div>
         </section>
         <section>
             <div class="hide5day">
                 <h3>5 Day Forecast</h3>
                 <table>
+                    <tbody>
                     <tr>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
+                        <th id="day_1">Monday</th>
+                        <th id="day_2">Tuesday</th>
+                        <th id="day_3">Wednesday</th>
+                        <th id="day_4">Thursday</th>
+                        <th id="day_5">Friday</th>
                     </tr>
                     <tr>
-                        <td>High</td>
-                        <td>High</td>
-                        <td>High</td>
-                        <td>High</td>
-                        <td>High</td>
+                        <td>
+                            <img id="prestonimg_1" src="" alt="">
+                            <p><span id="temp_1"></span>&deg;</p></td>
+                            <td>
+                            <img id="prestonimg_2" src="" alt="">
+                            <p><span id="temp_2"></span>&deg;</p></td>
+                            <td>
+                            <img id="prestonimg_3" src="" alt="">
+                            <p><span id="temp_3"></span>&deg;</p></td>
+                            <td>
+                            <img id="prestonimg_4" src="" alt="">
+                            <p><span id="temp_4"></span>&deg;</p></td>
+                            <td>
+                            <img id="prestonimg_5" src="" alt="">
+                            <p><span id="temp_5"></span>&deg;</p></td>
                     </tr>
-                    <tr>
-                        <td>65&deg;</td>
-                        <td>82&deg;</td>
-                        <td>62&deg;</td>
-                        <td>67&deg;</td>
-                        <td>74&deg;</td>
-                    </tr>
-                    <tr>
-                        <th><img class="icon" src="images/iconfinder_weather-few-clouds_118961.png" alt="cloud icon">
-                        </th>
-                        <th><img class="icon" src="images/iconfinder_weather-clear_118959.png" alt="sun icon"></th>
-                        <th><img class="icon" src="images/iconfinder_weather-showers-scattered_118964.png"
-                                alt="rain icon"></th>
-                        <th><img class="icon" src="images/iconfinder_weather-storm_118967.png" alt="storm icon"></th>
-                        <th><img class="icon" src="images/iconfinder_weather-severe-alert_118963.png"
-                                alt="weather severe icon"></th>
-                    </tr>
-                    <tr>
-                        <td>Low</td>
-                        <td>Low</td>
-                        <td>Low</td>
-                        <td>Low</td>
-                        <td>Low</td>
-                    </tr>
-                    <tr>
-                        <td>45&deg;</td>
-                        <td>67&deg;</td>
-                        <td>40&deg;</td>
-                        <td>42&deg;</td>
-                        <td>32&deg;</td>
-                    </tr>
+                </tbody>
                 </table>
             </div>
         </section>
@@ -148,9 +129,9 @@
         <script src="js/toggle.js"></script>
         <script src="js/currentdate.js"></script>
         <script id="pancake" src="js/pancake.js"></script>
-        <script id="calc" src="js/windchill.js"></script>
-        <script id="calc" src="js/weatherapi.js"></script>
-        <script id="calc" src="js/forecast.js"></script>
+        <script id="chill" src="js/windchill.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/forecast.js"></script>
     </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
