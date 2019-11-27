@@ -31,7 +31,7 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li> <a href="https://joshuachall.github.io/lesson9/index.html">Home</a></li>
-            <li> <a href ="preston.html">Preston</a></li>
+            <li> <a href="preston.html">Preston</a></li>
             <li> <a class="current" href="sodasprings.html">Soda Springs</a></li>
             <li> <a href="fishhaven.html">Fish Haven</a></li>
             <li> <a href="stormcenter.html">Storm Center</a></li>
@@ -41,12 +41,13 @@
     <main>
         <h2>Preston Idaho</h2>
         <section class="herosection">
-            <div><picture>
-            <source srcset="images/soda700.jpg" media="(min-width:500px) and (max-width: 600px)">
-            <source srcset="images/soda1000.jpg" media="(min-width:601px)">
-                <img id="week6photo" src="images/soda400.jpg"
-               alt="blue sky and mountains">
-                </picture></div>
+            <div>
+                <picture>
+                    <source srcset="images/soda700.jpg" media="(min-width:500px) and (max-width: 600px)">
+                    <source srcset="images/soda1000.jpg" media="(min-width:601px)">
+                    <img id="week6photo" src="images/soda400.jpg" alt="blue sky and mountains">
+                </picture>
+            </div>
             <div class="weathersummary">
                 <p>Weather Summary</p>
                 <p>Currently: <span id="current-temp"></span></p>
@@ -61,31 +62,36 @@
                 <h3>5 Day Forecast</h3>
                 <table>
                     <tbody>
-                    <tr>
-                        <th id="day_1">Monday</th>
-                        <th id="day_2">Tuesday</th>
-                        <th id="day_3">Wednesday</th>
-                        <th id="day_4">Thursday</th>
-                        <th id="day_5">Friday</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img id="prestonimg_1" src="#" alt="#">
-                            <p><span id="temp_1"></span>&deg;</p></td>
+                        <tr>
+                            <th id="day_1">Monday</th>
+                            <th id="day_2">Tuesday</th>
+                            <th id="day_3">Wednesday</th>
+                            <th id="day_4">Thursday</th>
+                            <th id="day_5">Friday</th>
+                        </tr>
+                        <tr>
                             <td>
-                            <img id="prestonimg_2" src="#" alt="#">
-                            <p><span id="temp_2"></span>&deg;</p></td>
+                                <img id="prestonimg_1" src="#" alt="#">
+                                <p><span id="temp_1"></span>&deg;</p>
+                            </td>
                             <td>
-                            <img id="prestonimg_3" src="#" alt="#">
-                            <p><span id="temp_3"></span>&deg;</p></td>
+                                <img id="prestonimg_2" src="#" alt="#">
+                                <p><span id="temp_2"></span>&deg;</p>
+                            </td>
                             <td>
-                            <img id="prestonimg_4" src="#" alt="#">
-                            <p><span id="temp_4"></span>&deg;</p></td>
+                                <img id="prestonimg_3" src="#" alt="#">
+                                <p><span id="temp_3"></span>&deg;</p>
+                            </td>
                             <td>
-                            <img id="prestonimg_5" src="#" alt="#">
-                            <p><span id="temp_5"></span>&deg;</p></td>
-                    </tr>
-                </tbody>
+                                <img id="prestonimg_4" src="#" alt="#">
+                                <p><span id="temp_4"></span>&deg;</p>
+                            </td>
+                            <td>
+                                <img id="prestonimg_5" src="#" alt="#">
+                                <p><span id="temp_5"></span>&deg;</p>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </section>
@@ -96,14 +102,19 @@
             <div class="article">
                 <h4> City moves forward with plans for water bottle factory </h4>
                 <p><img class="factory" src="images/factory1.jpg" alt="woman in factory"><br>
-                    Big business could be coming to Soda Springs. The hightly acclaimed Earth-Springs water company is in talks with
-                    city officals about building a collection and processing plant nearby Bear Creek Springs. If the city is chosen for the new
-                    plant, it could bring 400 new jobs to the city of Soda Springs. Locals are very skeptical about the deal. They have their
-                    doubts about how environmentally sound the plan is. the Bear Creek Springs are under government protection from this exact thing.
-                    The company says that they received the go ahead from the government and their plan is legally sound. The towns folk are sill waiting to hear back
+                    Big business could be coming to Soda Springs. The hightly acclaimed Earth-Springs water company is
+                    in talks with
+                    city officals about building a collection and processing plant nearby Bear Creek Springs. If the
+                    city is chosen for the new
+                    plant, it could bring 400 new jobs to the city of Soda Springs. Locals are very skeptical about the
+                    deal. They have their
+                    doubts about how environmentally sound the plan is. the Bear Creek Springs are under government
+                    protection from this exact thing.
+                    The company says that they received the go ahead from the government and their plan is legally
+                    sound. The towns folk are sill waiting to hear back
                     from the city to see if everything is officially moving ahead.
 
-                    
+
                 </p>
             </div>
         </section>
@@ -117,7 +128,7 @@
                 <p>Phone: 555-555-5555</p>
                 <p>Email: info@happycamperweather.com</p>
             </div>
-            
+
         </section>
     </main>
 
@@ -134,11 +145,17 @@
         <script src="js/forecast.js"></script>
         <script src="js/prestonjsonevents.js"></script>
     </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-        WebFont.load({google:{families:['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif]}});
-        </script>
-        
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+                    Verdana, sans - serif
+                ]
+            }
+        });
+    </script>
+
 </body>
 
 </html>
