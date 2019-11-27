@@ -192,8 +192,8 @@ p {
 .weathersummary {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    background-color: hsl(109, 8%, 40%, .75);
-    color: #1f2421;
+    background-color: hsl(109, 8%, 40%, .85);
+    color: black;
     position: absolute;
     text-align: center;
     left: 20px;
