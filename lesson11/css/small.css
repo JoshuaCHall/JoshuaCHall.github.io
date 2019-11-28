@@ -8,8 +8,8 @@ nav ul {
 
 nav ul li a:hover {
     /*color: #606d5d;*/
-    color: #add79c;
-    background-color: #1f2421;
+    color: #1f2421;
+    background-color: #606d5d;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ nav ul li.active a {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #466365;
+    background-color: #1f2421;
     padding: 0;
     overflow: hidden;
 }
@@ -64,7 +64,8 @@ header {
 nav ul li a {
     text-decoration: none;
     list-style: none;
-    color: #1f2421;
+    /*color: #1f2421;*/
+    color: #add79c;
 }
 
 .navigation a {
@@ -75,7 +76,8 @@ nav ul li a {
 
 
 .current {
-    background-color: #add79c;
+    background-color: #466365;
+    color: #1f2421;
 }
 
 #logo {
@@ -116,17 +118,22 @@ h4 {
 }
 
 footer {
-    background-color: #466365;
+    background-color: #1f2421;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #1f2421;
+    color: #add79c;
     clear: both;
 }
 
 .link {
     text-decoration: none;
-    color: #1f2421;
+    color: white;
+    line-height: 30px;
+}
+.link:hover {
+    color: #466365;
 }
 
 #week6photo {
@@ -166,6 +173,9 @@ p {
     font-size: 17px;
     color: #1f2421;
 }
+.article p {
+    padding: 10px;
+}
 
 .fish {
     margin-top: 30px;
@@ -204,7 +214,7 @@ p {
     /*line-height: .5px;*/
 }
 .weathersummary p {
-    color: white;
+    color: black;
 }
 
 .pancakebanner {
@@ -321,7 +331,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: #466365 solid 6px;
+    border-left: rgb(26, 11, 228) solid 6px;
 }
 form label.top input:required:valid {
     border-left: green solid 6px;
