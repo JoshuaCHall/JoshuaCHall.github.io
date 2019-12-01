@@ -4,7 +4,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); //temporary testing
+        //console.table(jsonObject); //temporary testing
         const towns = jsonObject['towns'];
         const idahoTowns = ["Fish Haven", "Soda Springs", "Preston"];
         for (let i = 0; i < towns.length; i++) { 

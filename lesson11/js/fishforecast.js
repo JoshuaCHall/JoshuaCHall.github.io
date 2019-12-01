@@ -6,7 +6,7 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Sa
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
 
     var counter = 1;
     for (let i = 0; i <jsObject.list.length; i++){
