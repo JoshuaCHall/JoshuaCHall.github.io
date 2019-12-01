@@ -32,6 +32,6 @@ function windChill(){
     document.getElementById('chill').innerHTML = Math.round(chill);   
 
 } else {
-document.getElementById("chill").innerHTML = 'N/A';
+document.getElementById('chill').innerHTML = 'N/A';
 }
 }
