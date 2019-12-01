@@ -25,7 +25,7 @@ fetch(requestURL)
             event2.textContent = towns[i].events[1];
             event3.textContent = towns[i].events[2];
             image.setAttribute('src', 'images/SodaSpringsEventImage.jpg');
-            image.setAttribute('alt', towns[i].events);
+            image.setAttribute('alt', 'people watching geyser erupt in snowy weather');
             //Merge them together
             
             span.appendChild(h4);
