@@ -104,7 +104,7 @@ h1 {
 
 h2,
 h3,
-h5 {
+h5, .contacth {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
