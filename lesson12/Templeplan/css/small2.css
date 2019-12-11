@@ -1,0 +1,435 @@
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav ul li a:hover {
+    /*color: #606d5d;*/
+    color: #1f2421;
+    background-color: #606d5d;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: #1f2421;
+    color: #add79c;
+}
+
+.navigation {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #1f2421;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+body {
+    background-color: #add79c;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #add79c;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2421;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.headings {
+    text-align: center;
+    line-height: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    /*color: #1f2421;*/
+    color: #add79c;
+}
+
+.navigation a {
+    padding: .5rem;
+    display: block;
+
+}
+
+
+.current {
+    background-color: #466365;
+    color: #e9fde2;
+}
+
+#logo {
+
+    width: 100px;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
+
+#tagline {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #1f2421;
+}
+
+h1 {
+    color: #1f2421;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+h2,
+h3,
+h5, .contacth {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #1f2421;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #add79c;
+    clear: both;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.link:hover {
+    color: #466365;
+}
+
+#week6photo {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#heroimg {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    text-align: center;
+    background-color: #add79c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #1f2421;
+    margin: 0 auto;
+
+}
+
+.icon {
+    width: 60px;
+    padding: 15px;
+    align-items: center;
+
+}
+
+p {
+    /*padding: 15px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #1f2421;
+}
+.article p {
+    padding: 10px;
+}
+
+.fish {
+    margin-top: 30px;
+}
+
+.contactinfo {
+    text-align: center;
+
+}
+
+.hidemap,
+.hide5day {
+    display: none;
+}
+
+.hidemap {
+    max-width: 90%;
+    padding: 5px;
+}
+
+.herosection {
+    position: relative;
+}
+
+.weathersummary {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: hsl(109, 8%, 40%, .85);
+    
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 20px;
+    padding: 10px;
+    max-width: 300px;
+    /*line-height: .5px;*/
+}
+.weathersummary p {
+    color: black;
+}
+
+.pancakebanner {
+    display: none;
+}
+
+.banner {
+    background-color: #1f2421;
+    color: #add79c;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+}
+
+figcaption {
+    background-color: #1f2421;
+    color: #add79c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: filter 1.0s;
+    width: 100%;
+    height: auto;
+}
+
+/*CSS for storm form*/
+.stormmain {
+    background-color: #e9fde2;
+}
+.formdiv {
+    
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+}
+form fieldset {
+    border: #1f2421 1px solid;
+    margin: 2rem 0;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    
+}
+.formh2 {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    padding: 10px;
+    font-size: 22px;
+    color: #466365;
+}
+.formh3 {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    padding: 10px;
+    font-size: 18px;
+    color:#606d5d;
+}
+legend, label {
+    color: #1f2421;
+    font-size: 18px;
+    padding: 10px;
+}
+form label.top, form div {
+    display: block;
+    font-size: 1rem;
+    color: #1f2421;
+}
+form label.top input, form label.top select {
+    padding: .75rem;
+    border-radius: 5px;
+    display: block;
+    max-width: 20rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+form input.submitBtn {
+    padding: .75rem 1.25rem;
+    border-radius: 1rem;
+    color: #e9fde2;
+    background-color: #466365;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: rgb(26, 11, 228) solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+textarea {
+    width: 90%;
+    height: 6rem;
+}
+/*Home Page*/
+
+.towncards{
+display: flex;
+flex-direction: column;
+
+border-radius: 6px;
+margin: 0px auto;
+padding: 10px;
+}
+
+.towncard{
+    border: #466365 solid 4px;
+    padding: 10px;
+ margin: 10px;
+ background-color: hsl(210, 14%, 53%, .5);
+border-radius: 10px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: rgb(87, 100, 112) 0px 2px 7px 4px;
+}
+
+
+.towncard section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.towncards section span :nth-child(2){
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.towncards section:first-child {
+    order: 3;
+}
+
+.towncards section span{
+    width: 100%;
+    height: auto;
+}
+
+.towncards img{
+width: 96%;
+padding: 10px;
+ 
+}
+.towncard p {
+    font-size: 14px;
+}
+.homeimg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.homediv p {
+    padding: 10px;
+}
+img.wireimg {
+    width: 400px;
+    margin: 0 auto;
+    height: auto;
+}
+p.wiretext {
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1f2421;
+    padding: 15px;
+    font-size: 20px;
+}
+.eventcard{
+    border: #466365 solid 4px;
+    padding: 10px;
+ margin: 10px;
+ background-color: hsl(210, 14%, 53%, .5);
+border-radius: 10px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: rgb(87, 100, 112) 0px 2px 7px 4px;
+}
+
+
+.eventcard section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
