@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    
+
     <header>
 
         <a href="index.html"><img class="logo" src="images/TempleLogo.png" alt="Blue and green geometric building"></a>
         <section class="headings">
             <h1>Temple Inn & Suites</h1>
-            <div id="tagline">Have a Heavenly Stay</div>
+            <div class="tagline">Have a Heavenly Stay</div>
         </section>
 
     </header>
@@ -37,69 +37,65 @@
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="buttonsection">
             <div>
                 <a href="reservation.html"><button type="button">Reserve</button></a>
             </div>
-            <div class="homediv">
-                <img class="homeimg" src="images/Atlanta400.jpg" alt="farm in mountains with fog">
-                <h2>Georgia Atlanta temple</h2>
-                <p>Announced on 2 April 1980</p>
-                <p>Dedicated on 1 June 1983</p>
-                <p>This temple was built in the time that Spencer W. Kimball was prophet of the church.
-                   It was redicated on 14 November 1997  </p>
+        </section>
+        <section class="photohighlightsection"></section>
+        <div>
+            <img class="homeimg" src="images/Atlanta400.jpg" alt="farm in mountains with fog">
+            <h2>Georgia Atlanta temple</h2>
+            <p>Announced on 2 April 1980</p>
+            <p>Dedicated on 1 June 1983</p>
+            <p>This temple was built in the time that Spencer W. Kimball was prophet of the church.
+                It was redicated on 14 November 1997 </p>
+        </div>
+        </section>
+
+        <section class="formsection">
+            <div class="formdiv">
+                <h3 class="formh3">Contact Us</h3>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+
+                        <legend>
+                            Contact information
+                        </legend>
+                        <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                placeholder="First Last" required></label>
+                        <label class="top"> Email<input type="email" name="email"
+                                placeholder="example@gmail.com"></label>
+                        <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
+                                required></label>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend class="top">Additional Information</legend>
+
+                        <label class="top">Comments
+                            <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
+                    </fieldset>
+                    <input type="submit" value="Send " class="submitBtn">
+
+                </form>
             </div>
         </section>
-        <h3>Georgia Atlanta Temple</h3>
-        <section>
-            
-                <div class="formdiv">
-                        <h3 class="formh3">Contact Us</h3>
-                        <form method="get" action="thanks.html">
-                            <fieldset>
-            
-                                <legend>
-                                    Contact information
-                                </legend>
-                                <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
-                                        placeholder="First Last" required></label>
-                                <label class="top"> Email<input type="email" name="email" placeholder="example@gmail.com"></label>
-                                <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
-                                        required></label>
-                                
-                            </fieldset>
-                            <fieldset>
-                                <legend class="top">Additional Information</legend>
-                                
-                                <label class="top">Comments
-                                <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
-                            </fieldset>
-                            <input type="submit" value="Send " class="submitBtn">
-            
-                        </form>
-                    </div>
-            
+        <section class="contactsection">
+            <div>
+                <h5>Temple Inn & Suites</h5>
+                <p>Phone: 555-555-5555</p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <p>Email: info@templeinnandsuites.com</p>
+            </div>
         </section>
-        
-
-
-
-
-        <section class="mapcontactsection">
-                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus" 
+        <section class="mapsection">
+            <div class="map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus"
                     width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
-                    
-                    
-                </div>
-                <div class="contactinfo">
-                    <h5>Temple Inn & Suites</h5>
-                    <p>Phone: 555-555-5555</p>
-                    <p>4800 Montgomery Ln #300</p>
-                    <p>Bethesda, MD 20814</p>
-                    <p>Email: info@templeinnandsuites.com</p>
-                    
-                </div>
-            </section>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -108,13 +104,13 @@
         <a class="link" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
         <script src="js/toggle.js"></script>
         <script src="js/currentdate.js"></script>
-        
+
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
             google: {
-                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga']
+                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher', 'Sawarabi Mincho']
             }
         });
     </script>

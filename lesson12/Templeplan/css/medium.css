@@ -1,5 +1,11 @@
 @media only screen and (min-width: 37.5em) {
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
     main,
     footer {
         max-width: 760px;
@@ -20,7 +26,8 @@
     .navigation li {
         display: block;
     }
-    .hidemap, .hide5day {
+
+    /*.hidemap, .hide5day {
         display: unset;
     }
     
@@ -34,45 +41,41 @@
         width: 400px;
         height: auto;
     }
-    .contactinfo {
+    */
+    /*.contactinfo {
         float: right;
     }
+
     .mapcontactsection {
         display: flex;
         flex-direction: row;
-    }
-    .gallery {
-    grid-template-columns: 1fr 1fr;
-}
-/* Home page */
-.towncards {
-    display: flex;
-}
-.towncards section {
-    display: flex;
-}
-.towncards section:nth-child(1){
-    order:3;
-    display: flex;
-    flex-grow: 1;
-}
-.towncards section:nth-child(3){
-    flex-direction: row-reverse;
-    text-align: center;
-}
-.towncards img {
-    width: 50%;
-}
-.towncards section span {
-    align-items: center;
-    text-align: center;
-    width: 50%;
-}
-}
+    }*/
 
-             
-
-   
-
-         
-
+    /* Home page */
+.photohighlightsection {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+}
+.buttonsection {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.formsection {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2
+}
+.contactsection {
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+}
+.mapsection {
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+}
+}

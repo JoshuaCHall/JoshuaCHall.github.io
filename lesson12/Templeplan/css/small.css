@@ -1,5 +1,9 @@
 /*Main and Body*/
-
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+*/
 /*Headings*/
 .logo {
     width: 100px;
@@ -15,16 +19,29 @@ header {
         align-items: center;
         justify-content: center;
         color: #b8a632;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        
+    }
+.tagline {
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 28px;
 }
 .headings {
     text-align: center;
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 46px;
 }
 /*End of Headings*/
-
+/*Main text*/
+h2 {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
 /*Navigation*/
 nav {
     margin: 0 auto;
@@ -46,7 +63,7 @@ nav ul li.active a {
     text-decoration: none;
     list-style: none;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Philosopher', sans-serif;
     text-align: center;
     background-color: #07393c;
     padding: 0;
@@ -75,6 +92,9 @@ nav ul li a {
 /*End of Navigation*/
 
 /*button*/
+.buttonsection {
+    justify-items: center;
+}
 
 button {
     padding: .75rem 1.25rem;
@@ -82,76 +102,79 @@ button {
     color: #e9fde2;
     background-color: #b8a632;
     border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Philosopher', sans-serif; 
     font-size: 20px;
     margin-bottom: 1rem;
     width: 100%;
     max-width: 20rem;
-    float: right;
+}
+button:hover {
+    background-color: #07393c;
 }
 /*End of button*/
 
-/*main*/
-/* End fo main */
+/*main*/ 
 
+
+/* End of main */
 
 /*body*/
 
+
 .formdiv {
-    
-    display: block;
     margin: 0 auto;
     text-align: left;
     width: 400px;
     max-width: 100%;
     background-color: hsl(167, 38%, 31%, .5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 form fieldset {
-    border: #1f2421 1px solid;
+    border:  #07393c 1px solid;
     margin: 2rem 0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    
+    font-family: 'Sawarabi Mincho', sans-serif;  
 }
-.formh2 {
+/*.formh2 {
     text-align: center;
     margin: 0 auto;
     float: none;
     padding: 10px;
     font-size: 22px;
     color: #466365;
-}
+}*/
 .formh3 {
     text-align: center;
     margin: 0 auto;
     float: none;
     padding: 10px;
     font-size: 18px;
-    color:#606d5d;
+    color:#0a090c;
+    font-family: 'Sawarabi Mincho', sans-serif; 
 }
 legend, label {
-    color: #1f2421;
+    color: #0a090c;
     font-size: 18px;
     padding: 10px;
 }
 form label.top, form div {
-    display: block;
+    display: flex;
     font-size: 1rem;
-    color: #1f2421;
+    color: #0a090c;
 }
 form label.top input, form label.top select {
     padding: .75rem;
     border-radius: 5px;
-    display: block;
+    display: flex;
     max-width: 20rem;
     width: 100%;
     /*background-color: rgba(0, 0, 0, .1);*/
 }
-
 form label.sbs {
-    display: block;
+    display: flex;
     padding: .75rem 0;
 }
 form input.submitBtn {
@@ -160,11 +183,11 @@ form input.submitBtn {
     color: #b8a632;
     background-color: #306c5f;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
     margin-bottom: 1rem;
-    width: 100%;
-    max-width: 20rem;
+    width: 50%;
+   
     
 }
 form label.top input:required {
@@ -174,23 +197,16 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-
-
+.contactsection {
+font-family:'Sawarabi Mincho', sans-serif;
+text-align: center;
+}
 /*End of body*/
-
-
-
-
-
-
-
-
-
 
 /* footer */
 footer {
     background-color: #07393c;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Philosopher', sans-serif; 
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
