@@ -94,6 +94,7 @@ nav ul li a {
 /*button*/
 .buttonsection {
     justify-items: center;
+    padding: 10px;
 }
 
 button {
@@ -130,7 +131,8 @@ button:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    
+    box-shadow: rgb(27, 94, 94) 0px 2px 7px 4px;
+    padding: 10px;
 }
 form fieldset {
     border:  #07393c 1px solid;
@@ -187,9 +189,8 @@ form input.submitBtn {
     font-size: 16px;
     margin-bottom: 1rem;
     width: 50%;
-   
-    
 }
+
 form label.top input:required {
     border-left: rgb(26, 11, 228) solid 6px;
 }
