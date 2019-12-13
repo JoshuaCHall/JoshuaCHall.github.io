@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Temple Inn & Suites | Home</title>
-    <meta name="description" content="Joshua Hall CIT 230 | Temple Inn & Suites Home Page">
+    <title>Temple Inn & Suites | Reservation</title>
+    <meta name="description" content="Joshua Hall CIT 230 | Temple Inn & Suites Reservation Page">
     <link rel="shortcut icon" href="faviconT.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -29,9 +29,9 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li> <a class="current" href="index.html">Home</a></li>
+            <li> <a href="index.html">Home</a></li>
             <li> <a href="temple.html">Temple</a></li>
-            <li> <a href="reservation.html">Reservation</a></li>
+            <li> <a class="current" href="reservation.html">Reservation</a></li>
             <li> <a href="services.html">Services</a></li>
             <li> <a href="contact.html">Contact</a></li>
         </ul>
@@ -41,26 +41,15 @@
             <div>
                 <a href="reservation.html"><button type="button">Reserve</button></a>
             </div>
-        </section>
-        <section class="photohighlightsection"></section>
-        <div>
-            <img class="homeimg" src="images/Atlanta400.jpg" alt="farm in mountains with fog">
-            <h2>Georgia Atlanta temple</h2>
-            <p>Announced on 2 April 1980</p>
-            <p>Dedicated on 1 June 1983</p>
-            <p>This temple was built in the time that Spencer W. Kimball was prophet of the church.
-                It was redicated on 14 November 1997 </p>
-        </div>
-        </section>
-
-        <section class="formsection">
+           
+            <section class="formsection">
             <div class="formdiv">
                 <h3 class="formh3">Contact Us</h3>
                 <form method="get" action="thanks.html">
                     <fieldset>
 
                         <legend>
-                            Contact information
+                            Reservation
                         </legend>
                         <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
                                 placeholder="First Last" required></label>
@@ -70,8 +59,42 @@
                                 required></label>
 
                     </fieldset>
+                    
+                <fieldset>
+                        <legend>Date</legend>
+                        <label class="top"><input type="date" name="date"></label>
+                        <label class="top">Number of guests per room<input list="stormtype">
+                            <datalist id="stormtype">
+                                <option value="Per room 1"></option>
+                                <option value="Per room 2"></option>
+                                <option value="Per room 3"></option>
+                                <option value="Per room 4"></option>
+                                
+                            </datalist>
+                        </label>
+                    </fieldset>    
+                        <fieldset>
+                        <label class="top"> Locations<select name="locations">
+                                <option disabled value="Select Location">Select Location</option>
+                                <option value="Memphis Tennessee">Memphis Tennessee</option>
+                                <option value="Boise Idaho">Boise Idaho</option>
+                                <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                <option value="Palmyra New-York">Palmyra Newyork</option>
+                            </select></label>
+                    </fieldset>
                     <fieldset>
-                        <legend class="top">Additional Information</legend>
+                            <label class="top">Types of rooms<select name="room">
+                                    <option disabled value="Select Location">Select Location</option>
+                                    <option value="Memphis Tennessee">Memphis Tennessee</option>
+                                    <option value="Boise Idaho">Boise Idaho</option>
+                                    <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                    <option value="Palmyra New-York">Palmyra Newyork</option>
+                                </select></label>
+                        </fieldset>
+                    
+                    <fieldset>
+
+                        <legend class="top">Special accommodations/comments.</legend>
 
                         <label class="top">Comments
                             <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>

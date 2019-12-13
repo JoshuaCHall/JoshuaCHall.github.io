@@ -24,6 +24,7 @@ header {
 .tagline {
     font-family: 'Philosopher', sans-serif;
     padding-bottom: 28px;
+    font-size: 24px;
 }
 .headings {
     text-align: center;
@@ -37,11 +38,19 @@ h1 {
 h2 {
     font-family: 'Philosopher', sans-serif;
     text-align: center;
+    font-size: 24px;
 }
 p {
     font-family: 'Philosopher', sans-serif;
     text-align: center;
+    font-size: 18px;
 }
+.homeimg {
+    padding: 10px;
+    height: auto;
+    justify-items: center;
+} 
+
 /*Navigation*/
 nav {
     margin: 0 auto;
@@ -83,6 +92,9 @@ nav ul li a {
 }
 .navigation a {
     padding: .5rem;
+    display: block;
+}
+.responsive li {
     display: block;
 }
 .current {
@@ -140,14 +152,14 @@ form fieldset {
     padding: 10px;
     font-family: 'Sawarabi Mincho', sans-serif;  
 }
-/*.formh2 {
+.formh2 {
     text-align: center;
     margin: 0 auto;
     float: none;
     padding: 10px;
     font-size: 22px;
     color: #466365;
-}*/
+}
 .formh3 {
     text-align: center;
     margin: 0 auto;
@@ -187,8 +199,8 @@ form input.submitBtn {
     border: none;
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
-    margin-bottom: 1rem;
     width: 50%;
+    margin-bottom: 1rem;
 }
 
 form label.top input:required {
@@ -199,8 +211,15 @@ form label.top input:required:valid {
 }
 
 .contactsection {
-font-family:'Sawarabi Mincho', sans-serif;
+font-family: 'Philosopher', sans-serif;
 text-align: center;
+font-size: 30px;
+
+}
+.mapsection{
+    padding: 10px;
+    justify-content: center;
+    
 }
 /*End of body*/
 
@@ -213,4 +232,7 @@ footer {
     padding-bottom: 5px;
     color: #b8a632;
     clear: both;
+}
+.link {
+color:  #b8a632;
 }
