@@ -44,54 +44,50 @@
            
             <section class="formsection">
             <div class="formdiv">
-                <h3 class="formh3">Contact Us</h3>
+                <h3 class="formh3">Reservation</h3>
                 <form method="get" action="thanks.html">
-                    <fieldset>
-
-                        <legend>
-                            Reservation
-                        </legend>
-                        <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
-                                placeholder="First Last" required></label>
-                        <label class="top"> Email<input type="email" name="email"
-                                placeholder="example@gmail.com"></label>
-                        <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
-                                required></label>
-
-                    </fieldset>
                     
-                <fieldset>
-                        <legend>Date</legend>
-                        <label class="top"><input type="date" name="date"></label>
-                        <label class="top">Number of guests per room<input list="stormtype">
-                            <datalist id="stormtype">
-                                <option value="Per room 1"></option>
-                                <option value="Per room 2"></option>
-                                <option value="Per room 3"></option>
-                                <option value="Per room 4"></option>
-                                
-                            </datalist>
-                        </label>
-                    </fieldset>    
-                        <fieldset>
-                        <label class="top"> Locations<select name="locations">
-                                <option disabled value="Select Location">Select Location</option>
-                                <option value="Memphis Tennessee">Memphis Tennessee</option>
-                                <option value="Boise Idaho">Boise Idaho</option>
-                                <option value="Boston Massachusetts">Boston Massachusetts</option>
-                                <option value="Palmyra New-York">Palmyra Newyork</option>
-                            </select></label>
+
+                    <fieldset>
+                    <label class="top"> Locations<select name="locations">
+                        <option disabled value="Select Location">Select Location</option>
+                        <option value="Memphis Tennessee">Memphis Tennessee</option>
+                        <option value="Boise Idaho">Boise Idaho</option>
+                        <option value="Boston Massachusetts">Boston Massachusetts</option>
+                        <option value="Palmyra New-York">Palmyra Newyork</option>
+                    </select></label>
                     </fieldset>
+                    <label class="top"> Date of stay<input type="date" name="date"></label>
+                    <fieldset>
+                        <legend class="top">Number of guests</legend>
+                        <div>How many per room</div>
+                        <label class="sbs"><input type="radio" name="danger" value="1">1</label>
+                        <label class="sbs"><input type="radio" name="danger" value="2">2</label>
+                        <label class="sbs"><input type="radio" name="danger" value="3">3</label>
+                        <label class="sbs"><input type="radio" name="danger" value="4">4</label>
+                        
+                    </fieldset>    
+                   
+                       
                     <fieldset>
                             <label class="top">Types of rooms<select name="room">
                                     <option disabled value="Select Location">Select Location</option>
-                                    <option value="Memphis Tennessee">Memphis Tennessee</option>
-                                    <option value="Boise Idaho">Boise Idaho</option>
-                                    <option value="Boston Massachusetts">Boston Massachusetts</option>
-                                    <option value="Palmyra New-York">Palmyra Newyork</option>
+                                    <option value="1King room">1King room</option>
+                                    <option value="2King room">2King room</option>
+                                    <option value="Regular suite ">Regular suite</option>
+                                    <option value="Deluxe suite">deluxe suite</option>
                                 </select></label>
                         </fieldset>
-                    
+                        <legend>
+                        </legend>
+                           <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                   placeholder="First Last" required></label>
+                           <label class="top"> Email<input type="email" name="email"
+                                   placeholder="example@gmail.com"></label>
+                           <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
+                                   required></label>
+                                   <label class="top"> state<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                    placeholder="state" required></label>
                     <fieldset>
 
                         <legend class="top">Special accommodations/comments.</legend>
