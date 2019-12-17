@@ -25,7 +25,9 @@
     .navigation li {
         display: block;
     }
-
+    .svch2 {
+        grid-column: span 2;
+    }
     /*.hidemap, .hide5day {
         display: unset;
     }
@@ -53,13 +55,13 @@
     /* Home page */
 .photohighlightsection {
     display: grid;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    grid-column: 1;
+    grid-row: 2;
     
 }
 .buttonsection {
     display: grid;
-    grid-column: 2;
+    grid-column-start: span 2;
     grid-row: 1;
 }
 .formsection {

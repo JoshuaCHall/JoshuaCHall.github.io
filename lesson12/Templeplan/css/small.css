@@ -4,6 +4,12 @@ font-family: 'Great Vibes', cursive;
 font-family: 'Philosopher', sans-serif;
 font-family: 'Sawarabi Mincho', sans-serif;
 */
+main {
+    display: grid;
+}
+body {
+    margin: 0 auto;
+}
 /*Headings*/
 .logo {
     width: 100px;
@@ -35,20 +41,22 @@ h1 {
 }
 /*End of Headings*/
 /*Main text*/
-h2 {
+h2, h3, h4, h5, h6 {
     font-family: 'Philosopher', sans-serif;
     text-align: center;
     font-size: 24px;
 }
+
 p {
     font-family: 'Philosopher', sans-serif;
     text-align: center;
     font-size: 18px;
+    padding: 10px;
 }
 .homeimg {
     padding: 10px;
     height: auto;
-    justify-items: center;
+    width: 90%;
 } 
 
 /*Navigation*/
@@ -106,9 +114,15 @@ nav ul li a {
 /*button*/
 .buttonsection {
     padding: 10px;
+    display: grid;
+    justify-items: center;
+}
+.buttonsection a {
+    text-decoration: none;
 }
 button {
-    padding: .75rem 1.25rem;
+    display: grid;
+    padding: 10px;
     border-radius: 1rem;
     color: #e9fde2;
     background-color: #b8a632;
@@ -117,10 +131,14 @@ button {
     font-size: 20px;
     margin-bottom: 1rem;
     width: 100%;
-    max-width: 20rem;
+    max-width: 150px;
+    text-decoration: none;
 }
 button:hover {
     background-color: #07393c;
+}
+.buttondiv {
+    justify-items: center;
 }
 /*End of button*/
 
@@ -189,7 +207,7 @@ form label.sbs {
     padding: .75rem 0;
 }
 form input.submitBtn {
-    padding: .75rem 1.25rem;
+    padding: 10px;
     border-radius: 1rem;
     color: #f0edee;
     background-color: #b8a632;
@@ -197,9 +215,12 @@ form input.submitBtn {
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
     width: 50%;
+    max-width: 150px;
     margin-bottom: 1rem;
 }
-
+.submitdiv {
+    align-items: center;
+}
 form label.top input:required {
     border-left: rgb(26, 11, 228) solid 6px;
 }
@@ -211,12 +232,12 @@ form label.top input:required:valid {
 font-family: 'Philosopher', sans-serif;
 text-align: center;
 font-size: 30px;
-
+grid-column: 1;
 }
 .mapsection{
     padding: 10px;
     justify-content: center;
-    
+    grid-column: 1;
 }
 .formsection-a{
     grid-column-start: span 2;
@@ -238,16 +259,17 @@ color:  #b8a632;
 }
 /*Services page */
 
-.formsection-c{
+/*.formsection-c{
     grid-column-start: span 2;
     
-}
+}*/
 .optionlist ul li {
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
 }
-.wedding3{
-
-    justify-items: center;
+.amenities {
+    padding: 20px;
+    margin: 0 auto;
 }
+
 

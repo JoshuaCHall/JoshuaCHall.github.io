@@ -32,8 +32,8 @@
             <li> <a href="index.html">Home</a></li>
             <li> <a href="temple.html">Temple</a></li>
             <li> <a href="reservation.html">Reservation</a></li>
-            <li> <a class="current" href="services.html">Services</a></li>
-            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li> <a class="current" href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -47,8 +47,8 @@
                         </legend>
                         <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
                                 placeholder="First Last" required></label>
-                        <label class="top"> Email<input type="email" name="email"
-                                placeholder="example@gmail.com"></label>
+                        <label class="top"> Email*<input type="email" name="email"
+                                placeholder="example@gmail.com" required></label>
                         <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
                                 required></label>
 
@@ -59,8 +59,9 @@
                         <label class="top">Comments
                             <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
                     </fieldset>
+                    <div class="submitdiv">
                     <input type="submit" value="Send " class="submitBtn">
-
+                    </div>
                 </form>
             </div>
         </section>

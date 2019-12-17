@@ -37,15 +37,11 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <div>
-               <div>
+        <h2 class="svch2">Additional Services</h2>
+        <section class="amenities">
+            <h3>Receptions and Events</h3>
                 <img class="images" src="images/wedding3.jpg" alt="Reception hall decorated">
-                </div>
-                <div>
-                <div>
-                <a href="reception.html"><button type="button">Reception Options</button></a>
-                </div>
+                <img class="images" src="images/wedding.jpg" alt="white gazebo">
                 <div class="optionlist">
                 <ul>
                     <li>Themed wedding decor</li>
@@ -59,13 +55,14 @@
                     <li>Gift registry</li>
                     <li>Bridesmaid dress customization</li>
                 </ul>
+                <div>
+                    <button onclick="location.href='reception.html'" type="button">Reception Options</button>
+                    </div>
             </div>
-            </div>
-        </section>
-        <section>
             <div>
-                <img class="images" src="images/Missionary1.jpg" alt="missioarese walking">
-                <a href="fulltimemissionary.html"><button type="button">Missionary Options</button></a>
+                <h4>Full Time Missionary Services</h4>
+                <img class="images" src="images/Missionary1.jpg" alt="missionaries walking">
+                <img class="images" src="images/Missionary2.jpg" alt="couple talking in group">
                 <div class="optionlist">
                    <ul>
                         <li>Visting missionary transportation packages</li>
@@ -77,12 +74,15 @@
                         <li>Kitchenettes offered in missioary suite rooms</li>
                         <li>On site store for kitchen and other needs</li>
                    </ul>
+                   <div class="buttondiv">
+                    <button onclick="location.href='fulltimemissionary.html'" type="button">Missionary Options</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="formsection-c">
             <div class="formdiv">
-                <h3 class="formh3">Contact Us</h3>
+                <h5 class="formh3">Contact Us</h5>
                 <form method="get" action="thanks.html">
                     <fieldset>
                         <legend>
@@ -90,8 +90,8 @@
                         </legend>
                         <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
                                 placeholder="First Last" required></label>
-                        <label class="top"> Email<input type="email" name="email"
-                                placeholder="example@gmail.com"></label>
+                        <label class="top"> Email*<input type="email" name="email"
+                                placeholder="example@gmail.com" required></label>
                         <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
                                 required></label>
 
@@ -102,14 +102,15 @@
                         <label class="top">Comments
                             <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
                     </fieldset>
+                    <div class="submitdiv">
                     <input type="submit" value="Send " class="submitBtn">
-
+                        </div>
                 </form>
             </div>
         </section>
         <section class="contactsection">
             <div>
-                <h5>Temple Inn & Suites</h5>
+                <h6>Temple Inn & Suites</h6>
                 <p>Phone: 555-555-5555</p>
                 <p>4800 Montgomery Ln #300</p>
                 <p>Bethesda, MD 20814</p>
