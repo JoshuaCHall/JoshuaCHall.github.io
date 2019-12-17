@@ -41,80 +41,68 @@
             <div>
                 <a href="reservation.html"><button type="button">Reserve</button></a>
             </div>
-           
             <section class="formsection-a">
-            <div class="formdiv">
-                <h3 class="formh3">Reservation</h3>
-                <form method="get" action="thanks.html">
-                    
-
-                    <fieldset>
-                    <label class="top"> Locations<select name="locations">
-                        <option disabled value="Select Location">Select Location</option>
-                        <option value="Memphis Tennessee">Memphis Tennessee</option>
-                        <option value="Boise Idaho">Boise Idaho</option>
-                        <option value="Boston Massachusetts">Boston Massachusetts</option>
-                        <option value="Palmyra New-York">Palmyra Newyork</option>
-                    </select></label>
-                    </fieldset>
-                    <label class="top"> Date of stay<input type="date" name="date"></label>
-                    <fieldset>
-                        <legend class="top">Number of guests</legend>
-                        <div>How many per room</div>
-                        <label class="sbs"><input type="radio" name="danger" value="1">1</label>
-                        <label class="sbs"><input type="radio" name="danger" value="2">2</label>
-                        <label class="sbs"><input type="radio" name="danger" value="3">3</label>
-                        <label class="sbs"><input type="radio" name="danger" value="4">4</label>
-                        
-                    </fieldset>    
-                   
-                       
-                    <fieldset>
-                            <label class="top">Types of rooms<select name="room">
+                <div class="formdiv">
+                    <h3 class="formh3">Reservation</h3>
+                    <form method="get" action="thanks.html">
+                        <fieldset>
+                            <legend>Guest Information</legend>
+                            <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                    placeholder="First Last" required></label>
+                            <label class="top"> Email*<input type="email" name="email" placeholder="example@gmail.com"
+                                    required></label>
+                            <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
+                                    required></label>
+                            <label class="top">State*<input type="text" name="state" pattern="[A-Za-z ]{5,99}"
+                                    placeholder="UT" required></label>
+                            <label class="top"> Date of stay<input type="date" name="date"></label>
+                            <label class="top"> Locations<select name="locations">
                                     <option disabled value="Select Location">Select Location</option>
-                                    <option value="1King room">1King room</option>
-                                    <option value="2King room">2King room</option>
-                                    <option value="Regular suite ">Regular suite</option>
-                                    <option value="Deluxe suite">deluxe suite</option>
+                                    <option value="Memphis Tennessee">Memphis Tennessee</option>
+                                    <option value="Boise Idaho">Boise Idaho</option>
+                                    <option value="Boston Massachusetts">Boston Massachusetts</option>
+                                    <option value="Palmyra New-York">Palmyra New York</option>
                                 </select></label>
                         </fieldset>
-                        <legend>
-                        </legend>
-                           <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
-                                   placeholder="First Last" required></label>
-                           <label class="top"> Email<input type="email" name="email"
-                                   placeholder="example@gmail.com"></label>
-                           <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
-                                   required></label>
-                                   <label class="top"> state<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
-                                    placeholder="state" required></label>
-                    <fieldset>
-
-                        <legend class="top">Special accommodations/comments.</legend>
-
-                        <label class="top">Comments
-                            <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
-                    </fieldset>
-                    <input type="submit" value="Send " class="submitBtn">
-
-                </form>
-            </div>
-        </section>
-        <section class="contactsection">
-            <div>
-                <h5>Temple Inn & Suites</h5>
-                <p>Phone: 555-555-5555</p>
-                <p>4800 Montgomery Ln #300</p>
-                <p>Bethesda, MD 20814</p>
-                <p>Email: info@templeinnandsuites.com</p>
-            </div>
-        </section>
-        <section class="mapsection">
-            <div class="map"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus"
-                    width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-        </section>
+                        <fieldset>
+                            <legend class="top">Number of guests</legend>
+                            <div>Guests per room</div>
+                            <label class="sbs"><input type="radio" name="guests" value="1">1</label>
+                            <label class="sbs"><input type="radio" name="guests" value="2">2</label>
+                            <label class="sbs"><input type="radio" name="guests" value="3">3</label>
+                            <label class="sbs"><input type="radio" name="guests" value="4">4</label>
+                            <label class="top">Room Type<select name="room">
+                                <option disabled value="Select Location">Room Type</option>
+                                <option value="1King room">1 King Suite</option>
+                                <option value="2King room">2 King Suite</option>
+                                <option value="Regular suite ">2 Queen Suite</option>
+                                <option value="Deluxe suite">Deluxe Suite</option>
+                            </select></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="top">Special Accommodations</legend>
+                            <label class="top">Comments
+                                <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
+                        </fieldset>
+                        <input type="submit" value="Send " class="submitBtn">
+                    </form>
+                </div>
+            </section>
+            <section class="contactsection">
+                <div>
+                    <h5>Temple Inn & Suites</h5>
+                    <p>Phone: 555-555-5555</p>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814</p>
+                    <p>Email: info@templeinnandsuites.com</p>
+                </div>
+            </section>
+            <section class="mapsection">
+                <div class="map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus"
+                        width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </section>
     </main>
 
     <footer>
@@ -129,7 +117,9 @@
     <script>
         WebFont.load({
             google: {
-                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher', 'Sawarabi Mincho']
+                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher',
+                    'Sawarabi Mincho'
+                ]
             }
         });
     </script>

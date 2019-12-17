@@ -105,10 +105,8 @@ nav ul li a {
 
 /*button*/
 .buttonsection {
-    justify-items: center;
     padding: 10px;
 }
-
 button {
     padding: .75rem 1.25rem;
     border-radius: 1rem;
@@ -128,12 +126,9 @@ button:hover {
 
 /*main*/ 
 
-
 /* End of main */
 
 /*body*/
-
-
 .formdiv {
     margin: 0 auto;
     text-align: left;
@@ -173,9 +168,11 @@ legend, label {
     color: #0a090c;
     font-size: 18px;
     padding: 10px;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 form label.top, form div {
     display: flex;
+    flex-direction: column;
     font-size: 1rem;
     color: #0a090c;
 }
@@ -194,8 +191,8 @@ form label.sbs {
 form input.submitBtn {
     padding: .75rem 1.25rem;
     border-radius: 1rem;
-    color: #b8a632;
-    background-color: #306c5f;
+    color: #f0edee;
+    background-color: #b8a632;
     border: none;
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
@@ -239,13 +236,16 @@ footer {
 .link {
 color:  #b8a632;
 }
-/* serives page */
+/*Services page */
 
 .formsection-c{
     grid-column-start: span 2;
     
 }
-
+.optionlist ul li {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 16px;
+}
 .wedding3{
 
     justify-items: center;
