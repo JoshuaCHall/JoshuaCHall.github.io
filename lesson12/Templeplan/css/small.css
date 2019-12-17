@@ -221,6 +221,9 @@ font-size: 30px;
     justify-content: center;
     
 }
+.formsection-a{
+    grid-column-start: span 2;
+}
 /*End of body*/
 
 /* footer */
@@ -236,3 +239,15 @@ footer {
 .link {
 color:  #b8a632;
 }
+/* serives page */
+
+.formsection-c{
+    grid-column-start: span 2;
+    
+}
+
+.wedding3{
+
+    justify-items: center;
+}
+

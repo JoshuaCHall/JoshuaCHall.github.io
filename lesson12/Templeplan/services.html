@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites | Services</title>
+    <meta name="description" content="Joshua Hall CIT 230 | Temple Inn & Suites Services Page">
+    <link rel="shortcut icon" href="faviconT.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html"><img class="logo" src="images/TempleLogo.png" alt="Blue and green geometric building"></a>
+        <section class="headings">
+            <h1>Temple Inn & Suites</h1>
+            <div class="tagline">Have a Heavenly Stay</div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="temple.html">Temple</a></li>
+            <li> <a href="reservation.html">Reservation</a></li>
+            <li> <a class="current" href="services.html">Services</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div>
+               <div>
+                <img class="images" src="images/wedding3.jpg" alt="Reception hall decorated. ">
+                </div>
+                <div>
+                    <div>
+                <a href="reception.html"><button type="button">Reception Options</button></a>
+                </div>
+                <ul>
+
+                    <li>lunchin & dinner caetoring</li>
+                    <li>Honeymoon Packages</li>
+                    <li>cotumized cake Options</li>
+                    <li>ballroom renting</li>
+                    <li>theamed wedding decor</li>
+                    <li>music and entertament</li>
+                    <li>valett parking</li>
+                    <li>profeshinal photographer</li>
+                    <li>gift regestory</li>
+                    <li>bridemade dress custmizing</li>
+                    
+                    
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img class="images" src="images/Missionary1.jpg" alt="missioarese walking">
+                <a href="missionary.html"><button type="button">Missionary Options</button></a>
+                   <ui>
+                        <li>Sute clenning and repare</li>
+                        <li>visting missionary trasportation packege</li>
+                        <li>free londery servies</li>
+                        <li>long term stay ocmidations</li>
+                        <li>meeting room for lessons</li>
+                        <li>teacing romm with aid packege</li>
+                        <li>50% discounted stay for family vistets</li>
+                        <li>stuy nuke offered in missioary suite rooms</li>
+                        <li>babitsem party packege.</li>
+                        <li>maerials store.</li>
+                        
+                        
+                        
+
+
+
+
+
+
+                   </ui>
+            </div>
+
+        </section>
+
+        <section class="formsection-c">
+            <div class="formdiv">
+                <h3 class="formh3">Contact Us</h3>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+
+                        <legend>
+                            Contact information
+                        </legend>
+                        <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                placeholder="First Last" required></label>
+                        <label class="top"> Email<input type="email" name="email"
+                                placeholder="example@gmail.com"></label>
+                        <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
+                                required></label>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend class="top">Additional Information</legend>
+
+                        <label class="top">Comments
+                            <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
+                    </fieldset>
+                    <input type="submit" value="Send " class="submitBtn">
+
+                </form>
+            </div>
+        </section>
+        <section class="contactsection">
+            <div>
+                <h5>Temple Inn & Suites</h5>
+                <p>Phone: 555-555-5555</p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <p>Email: info@templeinnandsuites.com</p>
+            </div>
+        </section>
+        <section class="mapsection">
+            <div class="map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2019 | Joshua Hall | Utah | <a class="link" href="termsofuse.html">Attributions & Terms of Use</a><br>
+        Current Date: <span id="currentdate"></span><br>
+        <a class="link" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+        <script src="js/toggle.js"></script>
+        <script src="js/currentdate.js"></script>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher', 'Sawarabi Mincho']
+            }
+        });
+    </script>
+
+</body>
+
+</html>
