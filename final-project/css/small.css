@@ -139,6 +139,7 @@ button:hover {
 }
 .buttondiv {
     justify-items: center;
+    display: grid;
 }
 /*End of button*/
 
@@ -267,7 +268,7 @@ color:  #b8a632;
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 16px;
 }
-.amenities {
+.amenities1, .amenities2 {
     padding: 20px;
     margin: 0 auto;
 }

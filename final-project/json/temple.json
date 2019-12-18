@@ -2,15 +2,15 @@
     "temples" : [
       {
         "templename" : "Boston Massachusetts Temple",
-        "imageurl": "https://melissahalldesign.github.io/final-project/images/Bountiful400Op.jpg",
+        "imageurl": "https://joshuachall.github.io/final-project/images/Temple4.jpg",
         "templeaddress" : "100 Hinckley Wy, Belmont, MA 02478",
         "phone" : "(1) 617-993-9993",
         "email" : "Login to churchofjesuschrist.org account to send email",
-        "services" : "Clothing rental available,  No cafeteria. Distribution center nearby. No patron housing.",
-        "history" : "Announced:30 September 1995 , Groundbreaking: 13 June 1997, Dedicated: 1 October 2000",
+        "services" : "Clothing rental available, No cafeteria. Distribution center nearby. No patron housing.",
+        "history" : "Announced:30 September 1995, Groundbreaking: 13 June 1997, Dedicated: 1 October 2000",
         "bapschedule" : "Tuesday & Wednesday 8:00 AM - 9:00 PM",
         "inischedule" : "Tuesday - Saturday 8:00 AM - 8:30 PM",
-        "sealschedule" : "Tuesday - Saturday 8:30 AM - 9:30 AM",
+        "sealschedule" : "Tuesday - Saturday 8:30 AM - 9:30 PM",
         "closure" : [
             
             "Tuesday, 24 December 2019",
@@ -27,17 +27,17 @@
             "Thursday, 24 December 2020",
             "Friday, 25 December 2020",
             "Thursday, 31 December 2020",
-            "Friday, 1 January 202"
+            "Friday, 1 January 2020"
         ]
       },
       {
         "templename" : "Palmyra New York Temple",
-        "imageurl": "https://melissahalldesign.github.io/final-project/images/Manti400Op.jpg",
+        "imageurl": "https://joshuachall.github.io/final-project/images/Temple3.jpg",
         "templeaddress" : "2720 Temple Rd, Palmyra, NY 14522",
         "phone" : "(1) 315-597-6001",
         "email" : "Login to churchofjesuschrist.org account to send email",
         "services" : "No Clothing rental available, No cafeteria. Distribution center nearby. No patron housing.",
-        "history" : "Announced: 21 February 1999, Groundbreaking: 25 May 1999 , Dedicated: 6 April 2000",
+        "history" : "Announced: 21 February 1999, Groundbreaking: 25 May 1999, Dedicated: 6 April 2000",
         "bapschedule" : "Tuesday - Thursday 9:00 AM - 8:00 PM, Saturday 9:30 AM - 3:30 PM", 
         "inischedule" : "Tuesday - Friday 6:00 AM - 8:00 PM, Saturday 9:30 AM - 3:30 PM",
         "sealschedule" : "Tuesday - Friday 6:00 AM - 8:20 PM, Saturday 9:30 AM - 3:30 PM",
@@ -61,12 +61,12 @@
       },
       {
         "templename" : "Frankfurt Germany Temple",
-        "imageurl": "https://melissahalldesign.github.io/final-project/images/Nauvoo400Op.jpg",
-        "templeaddress" : "Talstrasse 10, 61381 Friedrichsdorf/TS Germany",
+        "imageurl": "https://joshuachall.github.io/final-project/images/Temple5.jpg",
+        "templeaddress" : "Talstrasse 10, 61381 Friedrichsdorf/TS, Germany",
         "phone" : "(49) 6172-59000",
         "email" : "Login to churchofjesuschrist.org account to send email",
         "services" : " No clothing rental available. No cafeteria, distribution center, or patron housing.",
-        "history" : "Announced: 1 April 1981 , Groundbreaking: 1 July 1985, Dedicated: 28 August 1987",
+        "history" : "Announced: 1 April 1981, Groundbreaking: 1 July 1985, Dedicated: 28 August 1987",
         "bapschedule" : "Tuesday & Thursday 8:00 AM - 5:00 PM, Wednesday 8:00 PM - 5:00 PM, Saturday 8:00 AM - 12:00 PM",
         "inischedule" : "Tuesday & Thursday 8:00 AM - 5:00 PM, Wednesday & Friday 8:00 PM - 5:00 PM. Saturday 8:00 AM - 12:00 PM",
         "sealschedule" : "Tuesday & Thursday 8:00 AM - 5:00 PM, Wednesday & Friday 8:00 PM - 5:00 PM, Saturday 8:00 AM - 12:00 PM",
@@ -82,8 +82,8 @@
       },
       {
         "templename" : "Newport Beach California Temple",
-        "imageurl": "https://melissahalldesign.github.io/final-project/images/WinterQ400Op.jpg",
-        "templeaddress" : "2300 Bonita Canyon Dr,Newport Beach CA 92660",
+        "imageurl": "https://joshuachall.github.io/final-project/images/Temple2.jpg",
+        "templeaddress" : "2300 Bonita Canyon Dr, Newport Beach, CA 92660",
         "phone" : "(1) 949-644-1820",
         "email" : "Login to churchofjesuschrist.org account to send email",
         "services" : "No clothing rental, cafeteria, distribution center, or patron housing.",
