@@ -39,21 +39,21 @@
     <main>
         <section class="buttonsection">
             <div>
-                <a href="reservation.html"><button type="button">Reserve</button></a>
+                <button onclick="location.href='reservation.html'" type="button">Reserve</button>
             </div>
         </section>
         <section class="photohighlightsection">
-        <div>
-            <img class="homeimg" src="images/Atlanta400.jpg" alt="Atlanta temple">
-            <h2>Georgia Atlanta temple</h2>
-            <p>Announced on 2 April 1980</p>
-            <p>Dedicated on 1 June 1983</p>
-            <p>This temple was built during the time that President Spencer W. Kimball was prophet of the 
-                Church of Jesus Christ of Latter-Day Saints. It was rededicated on 14 November 1997. </p>
+            <div>
+                <img class="homeimg" src="images/Atlanta400.jpg" alt="Atlanta temple">
+                <h2>Georgia Atlanta temple</h2>
+                <p>Announced on 2 April 1980</p>
+                <p>Dedicated on 1 June 1983</p>
+                <p>This temple was built during the time that President Spencer W. Kimball was prophet of the
+                    Church of Jesus Christ of Latter-Day Saints. It was rededicated on 14 November 1997. </p>
                 <img src="images/baptism.jpg">
                 <img src="images/temple-room.jpg">
                 <img src="images/sealing.jpg">
-        </div>
+            </div>
         </section>
         <section class="formsection">
             <div class="formdiv">
@@ -65,8 +65,8 @@
                         </legend>
                         <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
                                 placeholder="First Last" required></label>
-                        <label class="top"> Email*<input type="email" name="email"
-                                placeholder="example@gmail.com" required></label>
+                        <label class="top"> Email*<input type="email" name="email" placeholder="example@gmail.com"
+                                required></label>
                         <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
                                 required></label>
                     </fieldset>
@@ -77,10 +77,10 @@
                             <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
                     </fieldset>
                     <div class="submitdiv">
-                    <input type="submit" value="Send " class="submitBtn">
-                </div>
+                        <input type="submit" value="Send" class="submitBtn">
+                    </div>
                 </form>
-            </form>
+                </div>
         </section>
         <section class="contactsection">
             <div>
@@ -111,7 +111,9 @@
     <script>
         WebFont.load({
             google: {
-                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher', 'Sawarabi Mincho']
+                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher',
+                    'Sawarabi Mincho'
+                ]
             }
         });
     </script>
