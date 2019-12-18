@@ -40,9 +40,9 @@
         <section class="templecardsection">
             <h2>We have locations near the following temples:</h2>
             <div>
-                <a class="templebutton" href="reservation.html"><button type="button">Reserve</button></a>
+                <button onclick="location.href='reservation.html'" type="button">Reserve</button>
             </div>
-        <div class="templecards"></div>
+            <div class="templecards"></div>
             <h4>Weather conditions in these regions</h4>
             <div class="weathersummaryB">
                 <p>Boston</p>
@@ -87,8 +87,8 @@
                         </legend>
                         <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
                                 placeholder="First Last" required></label>
-                        <label class="top"> Email*<input type="email" name="email"
-                                placeholder="example@gmail.com" required></label>
+                        <label class="top"> Email*<input type="email" name="email" placeholder="example@gmail.com"
+                                required></label>
                         <label class="top"> Phone*<input type="tel" name="phone" placeholder="123-555-1243"
                                 required></label>
                     </fieldset>
@@ -99,10 +99,10 @@
                             <textarea name="Additional Comments" placeholder="Type here..."></textarea></label>
                     </fieldset>
                     <div class="submitdiv">
-                    <input type="submit" value="Send " class="submitBtn">
-                </div>
+                        <input type="submit" value="Send " class="submitBtn">
+                    </div>
                 </form>
-            </form>
+                </div>
         </section>
         <section class="contactsection-temple">
             <div>
@@ -133,7 +133,9 @@
     <script>
         WebFont.load({
             google: {
-                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher', 'Sawarabi Mincho']
+                families: ['Noto Serif', 'Parisienne', 'Gupter', 'Calistoga', 'Great Vibes', 'Philosopher',
+                    'Sawarabi Mincho'
+                ]
             }
         });
     </script>
