@@ -1,4 +1,4 @@
-const requestURL = 'https://api.myjson.com/bins/gaato';
+const requestURL = 'https://api.myjson.com/bins/gcfzg';
 
 fetch(requestURL) 
     .then(function (response) {
