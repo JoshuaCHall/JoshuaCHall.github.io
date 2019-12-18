@@ -9,7 +9,7 @@ fetch(requestURL)
         //console.table(jsonObject); //temporary testing
         for (let i = 0; i < temples.length; i++) { 
             let templecard = document.createElement('section');
-            let h2 = document.createElement('h2');
+            let h3 = document.createElement('h3');
             let templename = document.createElement('p');
             let templeaddress = document.createElement('p');
             let phone = document.createElement('p');
@@ -22,7 +22,7 @@ fetch(requestURL)
             let endschedule = document.createElement('p');
             let closure = document.createElement('p');
             let image = document.createElement('img');
-            h2.textContent = temples[i].templename;
+            h3.textContent = temples[i].templename;
             templeaddress.textContent = temples[i].templeaddress;
             phone.textContent = temples[i].phone;
             email.textContent = temples[i].email;
@@ -36,7 +36,7 @@ fetch(requestURL)
             image.textContent = temples[i].templename + ' ' + temples[i].imageurl;
             image.setAttribute('src', temples[i].imageurl);
             image.setAttribute('alt', 'Outside of' + temples[i].templename);
-            templecard.appendChild(h2);
+            templecard.appendChild(h3);
             templecard.appendChild(templename);
             templecard.appendChild(image);
             templecard.appendChild(templeaddress);
