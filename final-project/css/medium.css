@@ -81,4 +81,7 @@
 .templecardsection {
     grid-column: span 2;
 }
+.weathersummaryB, .weathersummaryP, .weathersummaryF, .weathersummaryNB {
+    max-width: 50%;
+}
 }
