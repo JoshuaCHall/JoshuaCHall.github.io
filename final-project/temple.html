@@ -37,15 +37,45 @@
         </ul>
     </nav>
     <main>
-        <section class="buttonsection-temple">
-            <div>
-                <a href="reservation.html"><button type="button">Reserve</button></a>
-            </div>
-        </section>
         <section class="templecardsection">
             <h2>We have locations near the following temples:</h2>
+            <div>
+                <a class="templebutton" href="reservation.html"><button type="button">Reserve</button></a>
+            </div>
         <div class="templecards"></div>
             <h4>Weather conditions in these regions</h4>
+            <div class="weathersummaryB">
+                <p>Boston</p>
+                <p>Currently: <span id="bcurrent-temp"></span></p>
+                <p>High: <span id="btemp"></span>&deg;</p>
+                <p>Wind Chill: <span id="bchill"></span>&deg;</p>
+                <p>Humidity: <span id="bhumidity"></span></p>
+                <p>Wind Speed: <span id="bspeed"></span> mph</p>
+            </div>
+            <div class="weathersummaryP">
+                <p>Palmyra</p>
+                <p>Currently: <span id="pcurrent-temp"></span></p>
+                <p>High: <span id="ptemp"></span>&deg;</p>
+                <p>Wind Chill: <span id="pchill"></span>&deg;</p>
+                <p>Humidity: <span id="phumidity"></span></p>
+                <p>Wind Speed: <span id="pspeed"></span> mph</p>
+            </div>
+            <div class="weathersummaryF">
+                <p>Frankfurt</p>
+                <p>Currently: <span id="fcurrent-temp"></span></p>
+                <p>High: <span id="ftemp"></span>&deg;</p>
+                <p>Wind Chill: <span id="fchill"></span>&deg;</p>
+                <p>Humidity: <span id="fhumidity"></span></p>
+                <p>Wind Speed: <span id="fspeed"></span> mph</p>
+            </div>
+            <div class="weathersummaryNB">
+                <p>Newport Beach</p>
+                <p>Currently: <span id="nbcurrent-temp"></span></p>
+                <p>High: <span id="nbtemp"></span>&deg;</p>
+                <p>Wind Chill: <span id="nbchill"></span>&deg;</p>
+                <p>Humidity: <span id="nbhumidity"></span></p>
+                <p>Wind Speed: <span id="nbspeed"></span> mph</p>
+            </div>
         </section>
         <section class="formsection-temple">
             <div class="formdiv">
@@ -74,7 +104,7 @@
                 </form>
             </form>
         </section>
-        <section class="contactsection">
+        <section class="contactsection-temple">
             <div>
                 <h4>Temple Inn & Suites</h4>
                 <p>Phone: 555-555-5555</p>
@@ -82,8 +112,6 @@
                 <p>Bethesda, MD 20814</p>
                 <p>Email: info@templeinnandsuites.com</p>
             </div>
-        </section>
-        <section class="mapsection">
             <div class="map"><iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.619348113943!2d-77.10428653291909!3d38.98325594948479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576020123730!5m2!1sen!2sus"
                     width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
@@ -98,6 +126,7 @@
         <script src="js/toggle.js"></script>
         <script src="js/currentdate.js"></script>
         <script src="js/templecard.js"></script>
+        <script src="js/TempleWeather.js"></script>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

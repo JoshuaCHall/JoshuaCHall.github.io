@@ -272,13 +272,32 @@ color:  #b8a632;
     padding: 20px;
     margin: 0 auto;
 }
+.templecardsection {
+    grid-column: 1;
+    width: 90%;
+    grid-row: 1;
+    margin: 0 auto;
+}
 .templecards section {
     background-color: #306c5f;
+    width: 100%;
+    height: auto;
+    border: #0a090c;
+    border-radius: 5px;
+}
+.templebutton {
+    justify-items: center;
 }
 .templecards {
     display: grid;
     max-width: 90%;
+    column-gap: 10px;
+    row-gap: 10px;
     text-align: center;
     font-family: 'Sawarabi Mincho', sans-serif;
     margin: 0 auto;
+}
+.templecards p {
+    font-size: 16px;
+    line-height: 30px;
 }

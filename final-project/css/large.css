@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
-    .templecards {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+    /*.templecards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }*/
     
 }
 
