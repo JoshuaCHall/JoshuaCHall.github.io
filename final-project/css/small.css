@@ -247,6 +247,9 @@ grid-column: 1;
 .formsection-a{
     grid-column-start: span 2;
 }
+.photohighlightsection img {
+    padding: 10px;
+}
 /*End of body*/
 
 /* footer */
@@ -284,6 +287,10 @@ color:  #b8a632;
     width: 90%;
     grid-row: 1;
     margin: 0 auto;
+}
+.templebuttondiv {
+    justify-items: center;
+    display: grid;
 }
 .templecards section {
     background-color: #306c5f;
