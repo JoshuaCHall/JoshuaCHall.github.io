@@ -84,4 +84,7 @@
 .weathersummaryB, .weathersummaryP, .weathersummaryF, .weathersummaryNB {
     max-width: 50%;
 }
+.buttonsection p {
+    max-width: 800px;
+}
 }
