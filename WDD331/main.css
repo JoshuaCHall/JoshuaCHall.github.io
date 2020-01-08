@@ -49,9 +49,10 @@ row-gap: 10px;
 
 }
 img{
-    width: 400px;
+    width: 50%;
     height: auto;
-    margin: auto 0;
+    margin:  0 auto ;
+
 }
 
 
