@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-/* The font for the headlines is Lora and can be found on Google fonts
-The font list for the body copy is: Helvetica, Arial, sans-serif
+/* 
+--The font for the headlines is Lora and can be found on Google fonts
+--The font list for the body copy is: Helvetica, Arial, sans-serif
 The blue color is #6495ED.
 The background color used for <main> and the color of the text on the blue sidebar is #FAEBD7
 Navigation links should behave thus: normal and visited: #FAEBD7 and no underline , active: #DEB887, hover: white and underlined
@@ -9,51 +10,69 @@ Other page links should behave thus: normal and visited: #6495ED and no underlin
 Article title links should behave thus: normal and visited: black and no underline , active: #DEB887, hover: #6495ED and underlined
 You should be able to do this without modifying the html. Have that as your goal. If you do end up changing the .html file make sure to submit it with your css! */
 
-header{
- 
- background-color: #6495ED;
- display: flex;
- 
- 
+header {
 
+    background-color: #6495ED;
+    
 }
-h1 {
-    font-family:  'Lora', serif;
+h1{
+    text-align: right;
+    padding: 10px;
+}
+
+h1 a {
+    font-family: 'Lora', serif;
     font-size: 40px;
     color: #FAEBD7;
     text-decoration: none;
-}
-main{
-background-color: #FAEBD7;
-display: grid;
-grid-template-columns: 1fr ;
-text-align: left;
-justify-items: center;
-column-gap: 10px;
-row-gap: 10px;
-}
-nav ul{
+    padding: 0pt;
+    text-align: right;
 
 }
-a{
-display: grid;
-grid-template-columns: 1fr ;
-text-align: center;
-justify-items: center;
-column-gap: 10px;
-row-gap: 10px;
+
+h2 a {
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
 }
 
-.post-date{
-    font-family: Arial, Helvetica, sans-serif;
-
+main {
+    background-color: #FAEBD7;
+    text-align: left;
+    justify-items: center;
+    
 }
-img{
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+  
+}
+nav ul li a {
+    color: #FAEBD7;
+    text-align: center;
+    justify-items: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+img {
     width: 50%;
     height: auto;
-    margin:  0 auto ;
-
+    margin: 0 auto;
+    
 }
-
-
-
+.postdate{
+    color: black;
+}
+.postcontent{
+   display: grid; 
+}
