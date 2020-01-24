@@ -13,11 +13,13 @@ You should be able to do this without modifying the html. Have that as your goal
 header {
 
     background-color: #6495ED;
-    
+    padding: 20px;
+  
 }
-h1{
+
+h1 {
     text-align: right;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1 a {
@@ -29,51 +31,141 @@ h1 a {
     text-align: right;
 
 }
+h1 a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+}
 
 h2 a {
     font-family: 'Lora', serif;
     color: black;
     text-decoration: none;
-    list-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 30px;
+    display: flex;
+    flex-flow: row wrap;
 }
+h2 a:visited{
+    color: black;
+    text-decoration: none;
+}
+h2 a:active{
+    color: #DEB887;
+}
+h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+a {
+    color: #6495ED;
+    text-decoration: none;
+}
+a:visited{
+    color: #6495ED;
+    text-decoration: none; 
+}
+a:active{
+    color: #DEB887;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p {
+    padding: 20px;
+    text-align: left;
+}
+
+.post-date {
+    padding: 20px;
+}
+
+.post-content {
+    display: grid;
+}
+
+
 
 main {
     background-color: #FAEBD7;
-    text-align: left;
-    justify-items: center;
-    
+   
+
 }
-nav ul li{
+
+nav ul li {
     text-decoration: none;
     list-style: none;
     text-align: right;
-  
+    line-height: 30px;
+    
 }
+
 nav ul li a {
     color: #FAEBD7;
-    text-align: center;
-    justify-items: center;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
 }
+
+nav ul li a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: #DEB887;
+}
+
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAEBD7;
 }
 
-
-
+article {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    box-shadow: 6px 6px 6px -6px grey;
+}
 
 img {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: auto;
-    margin: 0 auto;
-    
 }
-.postdate{
-    color: black;
+figure{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
-.postcontent{
-   display: grid;
-   box-shadow: ; 
+@media only screen and (min-width: 800px){
+    header{
+        height: 100%;
+        width: 275px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 35px;
+       
+    }
+    main{
+        margin-left: 325px;
+
+    }
 }
