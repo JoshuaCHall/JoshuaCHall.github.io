@@ -1,0 +1,302 @@
+
+
+csslint: There are 60 problems in C:\Users\hallf\Desktop\BYUI Fall 2019 Joshua\JoshuaCHall.github.io\lesson9\css\small.css.
+
+small.css
+1: warning at line 9, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a:hover {
+
+small.css
+2: warning at line 15, col 8
+Element (li.active) is overqualified, just use .active without element name.
+nav ul li.active a {
+
+small.css
+3: warning at line 20, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navigation {
+
+small.css
+4: warning at line 48, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+small.css
+5: warning at line 58, col 1
+Rule doesn't have all its properties in alphabetical order.
+.headings {
+
+small.css
+6: warning at line 63, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a {
+
+small.css
+7: warning at line 69, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navigation a {
+
+small.css
+8: warning at line 80, col 1
+Don't use IDs in selectors.
+#logo {
+
+small.css
+9: warning at line 80, col 1
+Rule doesn't have all its properties in alphabetical order.
+#logo {
+
+small.css
+10: warning at line 85, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+small.css
+11: warning at line 88, col 1
+Don't use IDs in selectors.
+#tagline {
+
+small.css
+12: warning at line 88, col 1
+Rule doesn't have all its properties in alphabetical order.
+#tagline {
+
+small.css
+13: warning at line 94, col 1
+Rule doesn't have all its properties in alphabetical order.
+h1 {
+
+small.css
+14: warning at line 117, col 1
+Rule doesn't have all its properties in alphabetical order.
+footer {
+
+small.css
+15: warning at line 126, col 1
+Rule doesn't have all its properties in alphabetical order.
+.link {
+
+small.css
+16: warning at line 131, col 1
+Don't use IDs in selectors.
+#week6photo {
+
+small.css
+17: warning at line 131, col 1
+Rule doesn't have all its properties in alphabetical order.
+#week6photo {
+
+small.css
+18: warning at line 133, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+small.css
+19: warning at line 138, col 1
+Don't use IDs in selectors.
+#heroimg {
+
+small.css
+20: warning at line 138, col 1
+Rule doesn't have all its properties in alphabetical order.
+#heroimg {
+
+small.css
+21: warning at line 140, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+small.css
+22: warning at line 145, col 1
+Rule doesn't have all its properties in alphabetical order.
+table {
+
+small.css
+23: warning at line 155, col 1
+Rule doesn't have all its properties in alphabetical order.
+.icon {
+
+small.css
+24: warning at line 157, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 15px;
+
+small.css
+25: warning at line 162, col 1
+Rule doesn't have all its properties in alphabetical order.
+p {
+
+small.css
+26: warning at line 192, col 1
+Rule doesn't have all its properties in alphabetical order.
+.weathersummary {
+
+small.css
+27: warning at line 195, col 5
+Expected (<color>) but found 'hsl(109 , 8% , 40% , .75)'.
+    background-color: hsl(109, 8%, 40%, .75);
+
+small.css
+28: warning at line 210, col 1
+Rule doesn't have all its properties in alphabetical order.
+.banner {
+
+small.css
+29: warning at line 220, col 1
+Rule doesn't have all its properties in alphabetical order.
+.gallery {
+
+small.css
+30: error at line 222, col 28
+Unexpected token '1fr' at line 222, col 28.
+    grid-template-columns: 1fr;
+
+small.css
+31: warning at line 241, col 1
+Rule doesn't have all its properties in alphabetical order.
+figure img {
+
+small.css
+32: warning at line 252, col 1
+Rule doesn't have all its properties in alphabetical order.
+.formdiv {
+
+small.css
+33: warning at line 260, col 1
+Rule doesn't have all its properties in alphabetical order.
+form fieldset {
+
+small.css
+34: warning at line 268, col 1
+Rule doesn't have all its properties in alphabetical order.
+.formh2 {
+
+small.css
+35: warning at line 276, col 1
+Rule doesn't have all its properties in alphabetical order.
+.formh3 {
+
+small.css
+36: warning at line 289, col 1
+Rule doesn't have all its properties in alphabetical order.
+form label.top, form div {
+
+small.css
+37: warning at line 294, col 1
+Rule doesn't have all its properties in alphabetical order.
+form label.top input, form label.top select {
+
+small.css
+38: warning at line 295, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: .75rem;
+
+small.css
+39: warning at line 300, col 5
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    background-color: rgba(0, 0, 0, .1);
+
+small.css
+40: warning at line 303, col 6
+Element (label.sbs) is overqualified, just use .sbs without element name.
+form label.sbs {
+
+small.css
+41: warning at line 307, col 1
+Rule doesn't have all its properties in alphabetical order.
+form input.submitBtn {
+
+small.css
+42: warning at line 307, col 6
+Element (input.submitBtn) is overqualified, just use .submitBtn without element name.
+form input.submitBtn {
+
+small.css
+43: warning at line 308, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: .75rem 1.25rem;
+
+small.css
+44: warning at line 325, col 1
+Rule doesn't have all its properties in alphabetical order.
+textarea {
+
+small.css
+45: warning at line 331, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncards{
+
+small.css
+46: warning at line 336, col 9
+Values of 0 shouldn't have units specified.
+margin: 0px auto;
+
+small.css
+47: warning at line 340, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncard{
+
+small.css
+48: warning at line 344, col 2
+Expected (<color>) but found 'hsl(210 , 14% , 53% , .5)'.
+ background-color: hsl(210, 14%, 53%, .5);
+
+small.css
+49: warning at line 348, col 31
+Values of 0 shouldn't have units specified.
+box-shadow: rgb(87, 100, 112) 0px 2px 7px 4px;
+
+small.css
+50: warning at line 352, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncard section{
+
+small.css
+51: warning at line 359, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncards section span :nth-child(2){
+
+small.css
+52: warning at line 370, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncards section span{
+
+small.css
+53: warning at line 375, col 1
+Rule doesn't have all its properties in alphabetical order.
+.towncards img{
+
+small.css
+54: warning at line 377, col 1
+Using width with padding can sometimes make elements larger than you expect.
+padding: 10px;
+
+small.css
+55: warning at line 383, col 1
+Rule doesn't have all its properties in alphabetical order.
+.homeimg {
+
+small.css
+56: warning at line 391, col 1
+Rule doesn't have all its properties in alphabetical order.
+img.wireimg {
+
+small.css
+57: warning at line 391, col 1
+Element (img.wireimg) is overqualified, just use .wireimg without element name.
+img.wireimg {
+
+small.css
+58: warning at line 396, col 1
+Rule doesn't have all its properties in alphabetical order.
+p.wiretext {
+
+small.css
+59: warning at line 396, col 1
+Element (p.wiretext) is overqualified, just use .wiretext without element name.
+p.wiretext {
+
+small.css
+60: warning
+Too many font-size declarations (17), abstraction needed.
